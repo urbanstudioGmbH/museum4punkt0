@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/*
+	urbanstudio usForm
+	URI: http://www.urbanstudio.de
+	Author: Oli Feiler
+*/
+
+/* ---------------------------------------------------------------------------------- */
+
+div.antispam{display:none;}
+
+/* ---------------------------------------------------------------------------------- */
+
+div.form{display:block;width:100%;overflow:hidden;line-height:22px;color:#000000;}
+div.form a{color:#000000;text-deocration:underline;}
+div.form.nobg{background:none !important;} div.form.nopadding{padding:0 !important;}
+div.form.full{margin:0 0 20px 0 !important;padding:20px 0 17px 0 !important;width:100%;}
+div.usfield{display:block;clear:both;padding-bottom:22px;overflow:auto;}
+div.usfield.clear{clear:both;height:auto;} div.usfield.antispam{display:none;}
+div.usfield.hide{display:none;}
+div.usfield label{display:block;font-size:16px;font-weight:700;color:#333333;margin-bottom:8px;}
+div.usfield label span{color:#666666;font-weight:400;}
+div.usfield h3{color:#768793;font-size:18px;margin:0;padding:0;text-transform:uppercase;}
+div.usform-wrap{}
+
+div.usform-wrap input, div.usform-wrap textarea, div.usform-wrap select{display:block;}
+div.usform-wrap input, div.usform-wrap textarea{border:1px solid #D3D3D3;width:700px;padding:8px;color:#666;background:#FFFFFF;font-size:16px;font-family: 'Source Sans Pro', sans-serif;font-weight:400;box-sizing:border-box;transition:all 0.2s ease-in-out;/*border-radius:3px;*/}
+div.usform-wrap textarea{height:180px;-webkit-appearance:none !important;}
+div.usform-wrap input[type="text"], div.usform-wrap input[type="tel"], div.usform-wrap input[type="date"], div.usform-wrap input[type="email"], div.usform-wrap textarea{outline:0px 1px 0px #FFFFFF;outline-bottom:solid;outline-width:1px;-webkit-appearance:none !important;}
+
+div.usform-wrap input:focus, div.usform-wrap textarea:focus{background-color:#FFFFFF;border:1px solid #666666;color:#000000;outline:none;}
+div.usform-wrap input[type="radio"]{width:16px;margin-top:5px;border:0;} div.usform-wrap input[type="checkbox"]{width:auto;margin-top:5px;border:0;-webkit-appearance:checkbox !important;}
+
+div.usform-wrap.select{border:1px solid #D3D3D3;width:698px;padding:0;color:#666;background:#FFFFFF;font-size:14px;font-family:'Open Sans', sans-serif;font-weight:400;}
+div.usform-wrap select, div.usform-wrap select:focus{width:140px;padding:2px;outline:none;}
+div.usform-wrap select.list{border:1px solid #CCC;width:148px;padding:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;margin-bottom:8px;color:#666;}
+div.usform-wrap select.list.double{width:268px;} div.usform-wrap select.list.nolabel{margin-left:20px;}
+
+.usform-horizontal-checklist{float:none;clear:both;}
+.usform-horizontal-checklist div.usform-wrap{display:block;height:auto;width:100px;float:left;overflow:auto;padding-bottom:5px;}
+.usform-horizontal-checklist input{margin-right:10px;display:inline;float:left;width:18px;}
+div.usfield .usform-horizontal-checklist label{color:#000000;font-weight:400;padding:0 10px 0 0;margin-left:25px;margin-bottom:0;cursor:pointer;}
+
+.usform-vertical-checklist{float:none;clear:both;}
+.usform-vertical-checklist div.usform-wrap{display:block;height:auto;width:auto;float:none;overflow:auto;padding-bottom:5px;}
+.usform-vertical-checklist input{margin-right:10px;display:inline;float:left;width:18px;}
+div.usfield .usform-vertical-checklist label{color:#000000;font-weight:400;padding:0 10px 0 0;margin-left:20px;margin-bottom:0;cursor:pointer;white-space:nowrap;}
+
+.usbutton{clear:both;margin-bottom:20px;}
+
+
+/* -- ERROR / SUCCESS -------------------------------------------------------------------------------- */
+
+div.usfield.error label{color:#CC0000;}
+div.usfield.error div.usform-wrap input, div.usfield.error div.usform-wrap textarea{border-color:#CC0000;}
+div.usfield.success label{color:#2DB200;}
+div.usfield.success div.usform-wrap input, div.usfield.success div.usform-wrap textarea{border-color:#2DB200;}
+
+
+/* -- FLOATING FORM -------------------------------------------------------------------------------- */
+
+div.form.floating{overflow:auto;}
+div.form.floating div.usfield{float:left;clear:none;}
+div.form.floating div.usfield.clear{clear:both;}
+div.form.floating div.usfield.full{width:100%;box-sizing:border-box;}
+div.form.floating div.usfield.one{width:335px;margin-right:30px;}
+div.form.floating div.usfield.one.last, div.form.floating div.usfield.one.no-margin{margin-right:0;}
+div.form.floating div.usfield.one div.usform-wrap input, div.form.floating div.usfield.one div.usform-wrap textarea{width:335px;}
+
+div.form.floating div.usfield.one div.usform-wrap input.street{width:250px;margin-right:15px;float:left;}
+div.form.floating div.usfield.one div.usform-wrap input.streetnr{width:40px;float:left;}
+div.form.floating div.usfield.one div.usform-wrap input.zip{width:80px;margin-right:15px;float:left;}
+div.form.floating div.usfield.one div.usform-wrap input.city{width:210px;float:left;}
+
+div.form.floating div.usfield.one div.usform-wrap.select{border:1px solid #D3D3D3;width:303px;padding:0;height:35px;overflow:hidden;background:#FFFFFF url('images/select-arrow.svg') no-repeat 100% 50%;background-size:36px 40px;cursor:pointer;}
+div.form.floating div.usfield.one div.usform-wrap.select select{display:block;border:0;background:transparent;color:#000000;font-size:14px;font-family:'Open Sans', sans-serif;font-weight:400;-webkit-appearance:none;text-transform:none;cursor:pointer;width:120%;height:35px;padding:8px;}
+div.form.floating div.usfield.one .usform-horizontal-checklist div.usform-wrap input[type="radio"]{width:16px;margin-top:5px;border:0;}
+div.form.floating div.usfield.one .usform-horizontal-checklist div.usform-wrap input{margin-right:10px;display:inline;float:left;width:18px;}
+
+div.form.floating div.usfield.half{width:138px;margin-right:29px;}
+div.form.floating div.usfield.half.last, div.form.floating div.usfield.half.no-margin{margin-right:0;}
+div.form.floating div.usfield.half div.usform-wrap input, div.form.floating div.usfield.half div.usform-wrap textarea{width:138px;}
+
+div.form.floating div.usfield.half div.usform-wrap input.street{width:250px;margin-right:12px;float:left;}
+div.form.floating div.usfield.half div.usform-wrap input.streetnr{width:40px;float:left;}
+div.form.floating div.usfield.half div.usform-wrap input.zip{width:60px;margin-right:12px;float:left;}
+div.form.floating div.usfield.half div.usform-wrap input.city{width:230px;float:left;}
+
+div.form.floating div.usfield.half div.usform-wrap.select{border:1px solid #D3D3D3;width:137px;padding:0;height:35px;overflow:hidden;background:#FFFFFF url('images/select-arrow.svg') no-repeat 100% 50%;background-size:36px 40px;cursor:pointer;}
+div.form.floating div.usfield.half div.usform-wrap.select select{display:block;border:0;background:transparent;color:#000000;font-size:14px;font-family:'Open Sans', sans-serif;font-weight:400;-webkit-appearance:none;text-transform:none;cursor:pointer;width:177px;height:35px;padding:8px;}
+
+
+/* FIT IN */
+div.form.floating div.usfield.fit{width:100%;margin-right:0;box-sizing:border-box;}
+div.form.floating div.usfield.fit div.usform-wrap input[type="text"],
+div.form.floating div.usfield.fit div.usform-wrap input[type="tel"],
+div.form.floating div.usfield.fit div.usform-wrap input[type="date"],
+div.form.floating div.usfield.fit div.usform-wrap input[type="email"],
+div.form.floating div.usfield.fit div.usform-wrap textarea{width:100%;box-sizing:border-box;}
+div.form.floating div.usfield.fit div.usform-wrap textarea{height:126px;}
+div.form.floating div.usfield.fit div.usform-wrap.select{border:1px solid #D3D3D3;width:100%;padding:0;height:40px;overflow:hidden;background:#FFFFFF url('images/select-arrow.svg') no-repeat 100% 50%;background-size:36px 40px;cursor:pointer;box-sizing:border-box;}
+div.form.floating div.usfield.fit div.usform-wrap.select select{display:block;border:0;background:transparent;color:#000000;font-size:16px;font-family:'Open Sans', sans-serif;font-weight:700;-webkit-appearance:none;text-transform:none;cursor:pointer;width:125%;height:40px;padding:8px 30px 8px 8px;}
+
+
+/* -- LOGIN FORM -------------------------------------------------------------------------------- */
+div.form.floating.login{width:280px;margin:0 auto;padding:0;text-align:left;background:none !important;}
+div.form.floating.login div.usfield.half{width:280px;margin:0;padding-bottom:0;}
+div.form.floating.login div.usfield div.usform-wrap input, div.form.floating.login div.usfield div.usform-wrap textarea{width:262px;}
+div.form.floating.login div.usfield label{display:block;font-size:12px;font-weight:400;line-height:12px;text-transform:uppercase;color:#444444;margin:20px 0 6px 0;}
+div.form.floating.login div.usfield.half div.usform-wrap.select{border:1px solid #D3D3D3;width:278px;padding:0;height:35px;overflow:hidden;background:#FFFFFF url('images/select-arrow.svg') no-repeat 100% 50%;background-size:36px 40px;cursor:pointer;}
+div.form.floating.login div.usfield.half div.usform-wrap.select select{display:block;border:0;background:transparent;color:#000000;font-size:14px;font-family:'Open Sans', sans-serif;font-weight:400;-webkit-appearance:none;text-transform:none;cursor:pointer;width:320px;height:35px;padding:8px;}
+div.form.floating.login div.usbutton{clear:none;float:left;margin-top:25px;margin-bottom:0;}
+
+
+/* -- FILTER FORM 280px -------------------------------------------------------------------------------- */
+div.form.filterform{}
+div.form.filterform div.usfield{float:none;}
+div.form.filterform div.usfield div.usform-wrap input, div.form.filterform div.usfield div.usform-wrap textarea{width:242px;}
+div.form.filterform div.usfield div.usform-wrap input[type="checkbox"]{width:auto;}
+
+
+/* -- PLACEHOLDER -------------------------------------------------------------------------------- */
+div.usform-wrap input::-webkit-input-placeholder{font-size:12px;font-family:'Open Sans', sans-serif;font-weight:300;font-style:italic;text-transform:none;color:#999999;}
+div.usform-wrap input:-moz-placeholder { /* Firefox 18- */ font-size:12px;font-family:'Open Sans', sans-serif;font-weight:300;font-style:italic;text-transform:none;color:#999999;}
+div.usform-wrap input::-moz-placeholder {  /* Firefox 19+ */ font-size:12px;font-family:'Open Sans', sans-serif;font-weight:300;font-style:italic;text-transform:none;color:#999999;}
+div.usform-wrap input:-ms-input-placeholder{font-size:12px;font-family:'Open Sans', sans-serif;font-weight:300;font-style:italic;text-transform:none;color:#999999;}
+div.usform-wrap input:focus::-webkit-input-placeholder{color:transparent;}
+
+
+/* -- BUTTONS -------------------------------------------------------------------------------- */
+a.button, button.button {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 14px;
+  letter-spacing:inherit !important;
+  font-weight: 700 !important;
+  margin:0 0 0 0 !important;
+  height: 38px !important;
+  line-height: 38px !important;
+  padding: 0 12px 0 12px !important;
+  width: auto;
+  text-align: center;
+  border: 0;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+text-transform: uppercase !important;}
+
+.form a.button, .form button.button {
+  padding: 0 12px 0 12px; }
+
+a.button.blue {
+  background: #284F8A;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0 !important; }
+
+a.button.blue:hover {
+  background: #24477C; }
+
+a.button.green {
+  display:inline-block;height:48px !important;padding:0 26px 0 26px !important;margin:0 0 0 0 !important;line-height:48px !important;background:#b33844;color:#FFFFFF;font-size:14px !important;font-weight:700 !important;text-transform:uppercase;border-radius:24px!important;transition:all 0.2s ease-in-out;-webkit-appearance:none;cursor:pointer;letter-spacing:2px !important;opacity:1;border:1px solid rgba(0,0,0,.15);}
+
+a.button.green:hover {
+  background:#b33844; }
+
+a.button.yellow {
+  background: #FFBF00;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0 !important; }
+
+a.button.yellow:hover {
+  background: #FFAE00; }
+
+a.button.red {
+  background: #D90000;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0 !important; }
+
+a.button.red:hover {
+  background: #C50000; }
+
+a.button.gray, button.button.gray {
+  background: #666666;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0 !important; }
+
+a.button.gray:hover, button.button.gray:hover {
+  background: #777777; }
+
+a.button.lightgray {
+  background: #CCCCCC;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0 !important; }
+
+a.button.lightgray:hover {
+  background: #AAAAAA; }
+
+a.button i.fa {
+  margin: 0 6px 0 -4px; }
+
+
+
+/* Alert Boxes
+====================================*/
+.notification {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 15px;
+	position: relative;
+	padding: 14px 40px 14px 18px;
+	-webkit-box-shadow:  0px 1px 1px 0px rgba(180, 180, 180, 0.1);
+	box-shadow:  0px 1px 1px 0px rgba(180, 180, 180, 0.1);
+}
+.woocommerce-message .notification {
+	overflow: hidden;
+}
+.notification p {margin: 0;}
+.notification span {font-weight: bold;}
+
+.notification.success {
+	background-color: #EBF6E0;
+	color: #5f9025;
+	border: 1px solid #b3dc82;
+}
+
+.notification.error {
+	background-color: #ffe9e9;
+	color: #de5959;
+	border: 1px solid #fbc4c4;
+}
+
+.notification.warning {
+	background-color: #FBFADD;
+	color: #8f872e;
+	border: 1px solid #ded58a;
+}
+
+.notification.notice {
+	background-color: #E9F7FE;
+	color: #5091b2;
+	border: 1px solid #b6d7e8;
+}
+
+.notification.success .close,
+.notification.error .close,
+.notification.warning .close,
+.notification.notice .close {
+	padding: 0px 14px;
+	position: absolute;
+	right: 0;
+	top: 20px;
+	display: block;
+	height: 8px;
+	weight: 8px;
+}
+
+.notification.success .close {background: url('images/alert_boxes_close_ico.png') 0 -8px no-repeat;}
+.notification.error .close {background: url('images/alert_boxes_close_ico.png') 0 0 no-repeat;}
+.notification.warning .close {background: url('images/alert_boxes_close_ico.png') 0 -16px no-repeat;}
+.notification.notice .close {background: url('images/alert_boxes_close_ico.png') 0 -24px no-repeat;}
+
+div.form.hideform {
+    display: none;
+}
+
+/* Messages */
+#errormessage{display:none;color:#EC9516;border-bottom:1px solid rgba(0,0,0,.1);font-size:30px;line-height:40px;padding:40px 0 40px 0 !important;background: rgb(255,245,214);
+background: -moz-linear-gradient(top, rgba(255,245,214,1) 0%, rgba(254,237,185,1) 100%);
+background: -webkit-linear-gradient(top, rgba(255,245,214,1) 0%,rgba(254,237,185,1) 100%);
+background: linear-gradient(to bottom, rgba(255,245,214,1) 0%,rgba(254,237,185,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff5d6', endColorstr='#feedb9',GradientType=0 );}
+#errormessage .success{color:#009900;}
+#errormessage .error{color:#CC0000;}
+#success{display:none;}
+#success h2.big.success{background:url('images/tickani.svg') no-repeat 0 0;background-size:60px 60px;padding-left:90px;line-height:60px;min-height:60px;color:#55A823 !important;font-weight:700;}
+
+
+#errormessage.inline{border:1px solid #EC9516;font-size:16px;line-height:26px;padding:20px !important;margin:0 0 22px 0;border-radius:3px;}
+#errormessage.inline .success{border-color:#009900;}
+#errormessage.inline .error{border-color:#CC0000;}
+#errormessage.inline .center{padding:0 !important;}
+#success{border:1px solid #55A823;font-size:16px;line-height:26px;padding:20px !important;margin:0 0 22px 0;border-radius:3px;background:#FFFFFF;}
+
+/* -- RESPONSIVE -------------------------------------------------------------------------------- */
+@media only screen and (max-width: 989px) {
+
+div.form{width:auto;}
+div.usfield{display:block;clear:both;padding-bottom:22px;overflow:auto;width:100%;}
+div.usform-wrap input, div.usform-wrap textarea{width:100%;-webkit-appearance:none;}
+
+div.form.floating div.usfield.one{width: calc( ( 100% - 30px ) / 2 );margin-right:30px;}
+div.form.floating div.usfield.one.last, div.form.floating div.usfield.one.no-margin{margin-right:0;}
+div.form.floating div.usfield.one div.usform-wrap input, div.form.floating div.usfield.one div.usform-wrap textarea{width:100%;}
+
+div.form.floating div.usfield.one div.usform-wrap input.street{width: calc( 100% - 55px );margin-right:15px;float:left;}
+div.form.floating div.usfield.one div.usform-wrap input.streetnr{width:40px;float:left;}
+div.form.floating div.usfield.one div.usform-wrap input.zip{width:80px;margin-right:15px;float:left;}
+div.form.floating div.usfield.one div.usform-wrap input.city{width:calc( 100% - 95px );float:left;}
+
+}
+
+@media only screen and (max-width: 767px) {
+	
+div.form{width:auto;}
+
+div.form div.usfield{float:none;clear:none;}
+div.form div.usfield.clear{clear:both;}
+}
+
+@media only screen and (max-width: 667px) {
+#success h2.big.success{display:block;background:url('images/tickani.svg') no-repeat 50% 30px;background-size:120px 120px;padding-top:180px;padding-left:0;line-height:40px;min-height:inherit;text-align:center;}
+#success *{text-align:center !important;}
+}
+
+@media only screen and (max-width: 639px) {
+div.form.floating div.usfield.one{width: calc( ( 100% - 15px ) / 2 );margin-right:15px;}
+}
+
+@media only screen and (max-width: 590px) {
+div.form div.usfield{float:none;clear:none;}
+div.form div.usfield.clear{clear:both;}
+div.form.floating div.usfield.one{width:100%;margin-right:0;}
+div.form.floating div.usfield.one.last, div.form.floating div.usfield.one.no-margin{margin-right:0;}
+div.form.floating div.usfield.one div.usform-wrap input, div.form.floating div.usfield.one div.usform-wrap textarea{width:100%;}
+	
+.form a.button, .form button.button{box-sizing:border-box;width:100%;padding:0 0 0 0;height:50px !important;line-height:50px !important;}
+}

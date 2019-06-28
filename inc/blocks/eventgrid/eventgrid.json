@@ -1,0 +1,237 @@
+[
+    {
+        "key": "group_5cae28abbdce5",
+        "title": "Block: Eventgrid",
+        "fields": [
+            {
+                "key": "field_5cae28abd24d3",
+                "label": "Überschrift",
+                "name": "block_us_eventgrid_headline",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5cae28abd2527",
+                "label": "Typ",
+                "name": "block_us_eventgrid_type",
+                "type": "button_group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "past": "Vergangene",
+                    "current": "Aktuelle",
+                    "all": "Alle"
+                },
+                "allow_null": 0,
+                "default_value": "post",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5cae28abd2578",
+                "label": "Anzahl Einträge",
+                "name": "block_us_eventgrid_count",
+                "type": "button_group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "3": "3",
+                    "6": "6",
+                    "9": "9",
+                    "-1": "Alle"
+                },
+                "allow_null": 0,
+                "default_value": 3,
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5cbe9a921ef4e",
+                "label": "Mit vergangenen auffüllen?",
+                "name": "block_us_eventgrid_currentpast",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cae28abd2527",
+                            "operator": "==",
+                            "value": "current"
+                        },
+                        {
+                            "field": "field_5cae28abd2578",
+                            "operator": "==",
+                            "value": "3"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5cbe9b361ef51",
+                "label": "als Masonry anzeigen?",
+                "name": "block_us_eventgrid_masonry",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cae28abd2578",
+                            "operator": "!=",
+                            "value": "3"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5cae28abd25c7",
+                "label": "Grau hinterlegen?",
+                "name": "block_us_eventgrid_setbg",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5cae28abd2616",
+                "label": "\"Mehr zeigen\"-Button",
+                "name": "block_us_eventgrid_morebtn",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cae28abd2578",
+                            "operator": "!=",
+                            "value": "-1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_5cae28abdca71",
+                        "label": "Button anzeigen?",
+                        "name": "show",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "wpml_cf_preferences": 0,
+                        "message": "",
+                        "default_value": 0,
+                        "ui": 1,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_5cae28abdcacc",
+                        "label": "Beschriftung",
+                        "name": "text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "wpml_cf_preferences": 0,
+                        "default_value": "Alle Einträge anzeigen",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/block-us-eventgrid"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

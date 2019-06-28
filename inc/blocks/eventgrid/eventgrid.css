@@ -1,0 +1,74 @@
+.event-grid-container{}
+.event-grid-container.has-background{background:#F5F5F5;}
+.event-grid-container.has-background:before{position:absolute;top:0;left:0;right:0;width:100%;height:1px;background:rgba(0,0,0,.1);content:'';}
+.event-grid-container.has-background:after{position:absolute;bottom:0;left:0;right:0;width:100%;height:1px;background:rgba(0,0,0,.1);content:'';}
+
+
+.event-grid-container div.center.blog{padding-bottom:70px;padding-top:70px;}
+.event-grid-container .gridheadline{margin-bottom:55px;}
+.event-grid-container .gridheadline h2{font-size:30px !important;line-height:40px;margin:-5px 0 15px 0 !important;text-align:center !important;}
+
+.event-grid-container .blog-list{display:block;}
+.event-grid-container .blog-list:after{content:'';display:table;clear:both;}
+
+.event-grid-container article{display:block;float:left;clear:none;text-align:inherit;width:31.066666666666663%;margin-left:0%;margin-right:3.4%;}
+.event-grid-container article:nth-child(3n){float:right;margin-right:0% !important;}
+
+.event-grid-container article .image{position:relative;top:0;left:0;}
+.event-grid-container article .image a{display:block;position:relative;top:0;left:0;}
+.event-grid-container article .image a:before{position:absolute;top:0;left:0;right:0;bottom:0;border:0px solid transparent;width:100%;height:100%;content:'';-webkit-transition: border-width 0.2s, border-color 0.2s;transition: border-width 0.2s, border-color 0.2s;box-sizing:border-box;}
+.event-grid-container article .image:hover a:before{border-width:11px;border-color:#738591;}
+.event-grid-container article .image img{display:block;width:100%;height:auto;border-bottom:8px solid #738591;vertical-align:middle;}
+
+.event-grid-container article.project-dah .image:hover a:before,
+.event-grid-container article.project-dah .image img{border-color:#a5966a;}
+.event-grid-container article.project-dm .image:hover a:before,
+.event-grid-container article.project-dm .image img{border-color:#e62455;}
+.event-grid-container article.project-fas .image:hover a:before,
+.event-grid-container article.project-fas .image img{border-color:#5140b5;}
+.event-grid-container article.project-huf .image:hover a:before,
+.event-grid-container article.project-huf .image img{border-color:#51dcad;}
+.event-grid-container article.project-smng .image:hover a:before,
+.event-grid-container article.project-smng .image img{border-color:#6cf;}
+.event-grid-container article.project-spk-smb .image:hover a:before,
+.event-grid-container article.project-spk-smb .image img{border-color:#014366;}
+
+.event-grid-container article time{display:block;margin:20px 0 20px 0;color:#666666;font-size:14px;}
+
+.event-grid-container h4.event-type{margin:20px 0 20px 0 !important;}
+
+.event-grid-container h3.article-title{font-size:26px;line-height:1.3 !important;margin-bottom:20px;margin-top:20px;text-transform:uppercase;overflow-wrap:break-word;-moz-hyphens:auto;-o-hyphens:auto;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;}
+.event-grid-container h3.article-title a,
+.event-grid-container h3.article-title a:hover{color:#000000 !important;text-decoration:none !important;}
+
+.event-grid-container time.event-time{font-size:19px !important;font-weight:400 !important;line-height:26px !important;text-transform:none !important;margin:10px 0 10px 0;}
+
+.event-grid-container div.event.kurzinfo,
+.event-grid-container div.event.place{font-size:16px;line-height:1.5;margin:10px 0 10px 0;}
+
+.event-grid-container .call-to-action-container{text-align:center !important;}
+
+@media only screen and (max-width:766px){
+
+.event-grid-container article,
+.event-grid-container article:nth-child(3n){float:none;clear:left;width:100%;margin:0 0 0 0;}
+
+}
+
+/** by mf **/
+.event-grid-container .masonry .gutter-sizer{width:40px;}
+
+@media only screen and (min-width:1220px){
+	.event-grid-container .masonry article{width:360px;}
+}
+@media only screen and (min-width:941px) and (max-width:1219px){
+	.event-grid-container .masonry article{width:calc( (100% - 60px) / 3 );}
+	.event-grid-container .masonry .gutter-sizer{width:30px;}
+}
+@media only screen and (min-width:768px) and (max-width:940px){
+	.event-grid-container .masonry article{width:calc( (100% - 30px) / 2 );}
+	.event-grid-container .masonry .gutter-sizer{width:30px;}
+}
+@media only screen and (max-width:767px){
+	.event-grid-container .masonry article{width:100%;}
+}

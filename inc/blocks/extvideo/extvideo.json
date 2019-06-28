@@ -1,0 +1,106 @@
+[
+    {
+        "key": "group_5cb4c702a5836",
+        "title": "Block: YT plus Vimeo",
+        "fields": [
+            {
+                "key": "field_5cb4c702bb018",
+                "label": "Art",
+                "name": "block_us_extvideo_type",
+                "type": "button_group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "vimeo": "Vimeo",
+                    "youtube": "YouTube"
+                },
+                "allow_null": 0,
+                "default_value": "youtube",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5cb4c702bb068",
+                "label": "Vorschaubild",
+                "name": "block_us_extvideo_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpeg,png,svg"
+            },
+            {
+                "key": "field_5cb4c702bb0a5",
+                "label": "Vimeo oder YouTube Video",
+                "name": "block_us_extvideo_video",
+                "type": "oembed",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "width": "",
+                "height": ""
+            },
+            {
+                "key": "field_5cb4c702bb0f5",
+                "label": "Untertitel",
+                "name": "block_us_extvideo_caption",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/block-us-extvideo"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

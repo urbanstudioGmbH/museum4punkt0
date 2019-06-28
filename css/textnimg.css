@@ -1,0 +1,22 @@
+.block_textnimg{display:table;position:relative;top:0;border:0;margin:0;padding:0;}
+.block_textnimg div.left, .block_textnimg div.right{display:table-cell;width:50%;box-sizing:border-box;position:relative;top:0;left:0;min-height:250px;}
+.block_textnimg div.hasText a.hidden-image{display:none;}
+.block_textnimg div.hasImage a{position:absolute;top:0;left:0;right:0;bottom:0;border:1px solid rgba(0,0,0,.1);content:'';}
+.block_textnimg .textcontentbox{padding:50px;}
+
+@media only screen and (max-width: 767px) {
+.block_textnimg{display:block;position:relative;top:0;border:0;margin:0;padding:0;}
+.block_textnimg div.hasText{display:block !important;width:100%;box-sizing:border-box;position:relative;top:0;left:0;}
+.block_textnimg div.hasText a.hidden-image{display:block!important;position:relative;top:0;left:0;} .block_textnimg div.hasText a.hidden-image img{width:100%;height:auto;}
+.block_textnimg div.hasText a.hidden-image:after{position:absolute;top:0;left:0;right:0;bottom:0;border-top:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1);content:'';}
+.block_textnimg div.hasImage{display:none !important;}
+.block_textnimg .textcontentbox{padding:30px;text-align:center !important;max-width:700px;}
+.block_textnimg .textcontentbox h2{display:block;text-align:center !important;}
+a.theme-button {}
+}
+
+@media only screen and (max-width: 767px) {
+
+.block_textnimg .textcontentbox{padding:30px 15px 30px 15px;}
+
+}

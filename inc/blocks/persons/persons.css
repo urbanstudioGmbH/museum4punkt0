@@ -1,0 +1,35 @@
+/* Block: Persons */
+
+.list-contacts-container{display:block;clear:both;margin-bottom:55px !important;margin-top:55px !important;}
+.list-contacts-container:after{content:'';display:table;clear:both;}
+
+.list-contacts-item{float:left;clear:none;text-align:inherit;margin-left:0%;margin-bottom:35px;}
+.list-contacts-item:after{content:'';display:table;clear:both;}
+
+.list-contacts-picture{float:left;clear:none;text-align:inherit;width:35%;margin-left:0%;margin-right:3%;}
+.list-contacts-picture img{display:inline-block;max-width:100%;height:auto;border-radius:50%;}
+
+.list-contacts-person-details{float:left;clear:none;text-align:inherit;width:62%;margin-left:0%;margin-right:0;}
+h3.list-contacts-name{margin-bottom:10px;margin-top:0;}
+p.list-contacts-position{margin:0 !important;}
+a.list-contacts-fon,
+a.list-contacts-email{display:block;}
+
+@media only screen and (max-width: 767px) {
+.list-contacts-picture{float:none;width:100%;margin:0 0 15px 0 !important;text-align:center;}
+.list-contacts-person-details{float:none;clear:left;width:100%;margin-bottom:35px;}
+h3.list-contacts-name{display:block;text-align:center;}
+p.list-contacts-position{margin:0 !important;text-align:center;}
+a.list-contacts-fon,
+a.list-contacts-email{text-align:center;}
+}
+
+@media only screen and (min-width: 574px) {
+.list-contacts-item{width:48.5%;margin-right:3%;}
+.list-contacts-item:nth-child(2n){margin-right:0%;float:right;}
+.list-contacts-item:nth-child(2n+1){clear:both;}
+}
+
+@media only screen and (max-width: 573px) {
+.list-contacts-item{width:100%;margin-right:0;clear:both;}
+}

@@ -1,0 +1,7 @@
+/* Block: US Sharer */
+
+.us-sharer{max-width:760px;margin:0 auto;margin-bottom:55px !important;margin-top:55px !important;}
+.us-sharer a{display:block;width:auto;max-width:125px;height:auto;background-color:#b0b0b0;color:#FFFFFF !important;text-decoration:none !important;margin:0 5px 5px 0;padding:0 14px 0 0;font-size:14px;line-height:35px;font-weight:700;text-shadow:0 1px 0 rgba(0,0,0,.15);border:1px solid rgba(0,0,0,.1);box-sizing:border-box;float:left;transition:all 0.2s ease-in-out;}
+.us-sharer a:hover{background:#000000;}
+.us-sharer a i{display:block;width:40px;height:35px;text-align:center;line-height:35px;float:left;font-size:18px;padding:0 5px;}
+.us-sharer:after{content:'';display:table;clear:both;}

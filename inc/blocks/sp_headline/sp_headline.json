@@ -1,0 +1,50 @@
+[
+    {
+        "key": "group_5cab5caa4199b",
+        "title": "Block: Page-Header",
+        "fields": [
+            {
+                "key": "field_5cab5cbb2dcdb",
+                "label": "Bild",
+                "name": "block_us_sp_headline_heroimage",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "slide_desktop",
+                "library": "all",
+                "min_width": 1400,
+                "min_height": "",
+                "min_size": "",
+                "max_width": 4000,
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,png,jpeg",
+                "wpml_cf_preferences": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/block-us-sp-headline"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

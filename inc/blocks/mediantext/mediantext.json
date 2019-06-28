@@ -1,0 +1,213 @@
+[
+    {
+        "key": "group_5caf6b47a9732",
+        "title": "Block: Media und Text",
+        "fields": [
+            {
+                "key": "field_5caf6b5d1001c",
+                "label": "Media",
+                "name": "media",
+                "type": "column",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "column-type": "1_2"
+            },
+            {
+                "key": "field_5cb2ff4bdff23",
+                "label": "Art",
+                "name": "block_us_mediantext_type",
+                "type": "button_group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "choices": {
+                    "image": "Bild",
+                    "vimeo": "Vimeo",
+                    "youtube": "YouTube"
+                },
+                "allow_null": 0,
+                "default_value": "image",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5caf6b751001d",
+                "label": "Bildwählen",
+                "name": "block_us_mediantext_image",
+                "type": "image",
+                "instructions": "Wenn Video gewählt ist, dient dieses Bild als Vorschau-Bild.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "big-thumb",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "jpg,jpeg,png,svg"
+            },
+            {
+                "key": "field_5cb2ffd3dff24",
+                "label": "Vimeo oder YouTube Video",
+                "name": "block_us_mediantext_video",
+                "type": "oembed",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5cb2ff4bdff23",
+                            "operator": "!=",
+                            "value": "image"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "width": "",
+                "height": ""
+            },
+            {
+                "key": "field_5caf6bb41001e",
+                "label": "Untertitel",
+                "name": "block_us_mediantext_media_caption",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5caf6be41001f",
+                "label": "Media zeigen...",
+                "name": "block_us_mediantext_media_lr",
+                "type": "button_group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "choices": {
+                    "left": "Links",
+                    "right": "Rechts"
+                },
+                "allow_null": 0,
+                "default_value": "left",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5caf6c2610020",
+                "label": "Text",
+                "name": "",
+                "type": "column",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "column-type": "1_2",
+                "wpml_cf_preferences": 0
+            },
+            {
+                "key": "field_5caf6c3b10021",
+                "label": "Überschrift",
+                "name": "block_us_mediantext_text_hl",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5caf6c4f10022",
+                "label": "Text",
+                "name": "block_us_mediantext_text",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "default_value": "",
+                "tabs": "visual",
+                "toolbar": "basic",
+                "media_upload": 0,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/block-us-mediantext"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

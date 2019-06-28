@@ -1,0 +1,22 @@
+/*@import url( 'style.css' );*/
+ 
+/* Add overwrites as needed so that the content of the editor field is attractive and not broken */
+body { padding: 0; background: #fff; }
+/* Main column width */
+.wp-block {
+    max-width: 760px;
+    margin: 25px 0;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 1220px;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.wp-block[data-align="full"] div.center{width:auto;max-width:1220px;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:30px;padding-right:30px;transition:all 0.2s ease-in-out;box-sizing:border-box;}
+

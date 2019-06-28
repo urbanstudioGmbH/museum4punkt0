@@ -1,0 +1,239 @@
+[
+    {
+        "key": "group_5ca789999f8e9",
+        "title": "Block: Grid Teaser",
+        "fields": [
+            {
+                "key": "field_5cab584c69c5b",
+                "label": "Überschrift",
+                "name": "block_us_gridteaser_hl",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5ca789a169440",
+                "label": "Teaser-Links",
+                "name": "block_us_gridteaser_index",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "wpml_cf_preferences": 0,
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Link hinzufügen",
+                "sub_fields": [
+                    {
+                        "key": "field_5ca78ec59d446",
+                        "label": "Link Typ",
+                        "name": "type",
+                        "type": "radio",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "int": "interner Link",
+                            "ext": "externer Link"
+                        },
+                        "allow_null": 0,
+                        "other_choice": 0,
+                        "default_value": "int",
+                        "layout": "horizontal",
+                        "return_format": "value",
+                        "wpml_cf_preferences": 0,
+                        "save_other_choice": 0
+                    },
+                    {
+                        "key": "field_5ca790df9d44a",
+                        "label": "Link-Ziel",
+                        "name": "target",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "_self": "gleiches Fenster",
+                            "_blank": "neuer Tab"
+                        },
+                        "default_value": [
+                            "_self"
+                        ],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "wpml_cf_preferences": 0,
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_5ca78fb69d447",
+                        "label": "Seite \/ Beitrag verlinken",
+                        "name": "post",
+                        "type": "post_object",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_5ca78ec59d446",
+                                    "operator": "==",
+                                    "value": "int"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "teilprojekt",
+                            "page",
+                            "post"
+                        ],
+                        "taxonomy": "",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "return_format": "object",
+                        "wpml_cf_preferences": 0,
+                        "ui": 1
+                    },
+                    {
+                        "key": "field_5ca7905c9d448",
+                        "label": "Link",
+                        "name": "linkurl",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_5ca78ec59d446",
+                                    "operator": "==",
+                                    "value": "ext"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "wpml_cf_preferences": 0
+                    },
+                    {
+                        "key": "field_5ca7909d9d449",
+                        "label": "Link Titel",
+                        "name": "linktitle",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_5ca78ec59d446",
+                                    "operator": "==",
+                                    "value": "ext"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "wpml_cf_preferences": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5ca7915c9d44b",
+                        "label": "Vorschau-Bild",
+                        "name": "pic",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_5ca78ec59d446",
+                                    "operator": "==",
+                                    "value": "ext"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "wpml_cf_preferences": 0,
+                        "return_format": "id",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "jpg,jpeg,png"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/block-us-gridteaser"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

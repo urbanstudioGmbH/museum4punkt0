@@ -1,0 +1,45 @@
+/* Block: Contact & Text */
+
+.contact-text-container{margin-bottom:55px !important;margin-top:55px !important;}
+.contact-text-container:after{content:'';display:table;clear:both;}
+.contact-text-container .grid-column{display:block;clear:none;text-align:inherit;margin-left:0%;-moz-hyphens:auto;-o-hyphens:auto;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;}
+
+.contact-text-container .grid-contact{display:block;text-align:inherit;margin-left:0%;margin-bottom:35px;}
+.contact-text-container .grid-contact:after{content:'';display:table;clear:both;}
+
+.contact-text-container .list-contacts-picture{float:left;clear:none;text-align:inherit;width:35%;margin-left:0%;margin-right:3%;}
+.contact-text-container .list-contacts-picture img{display:inline-block;max-width:100%;height:auto;border-radius:50%;}
+
+.contact-text-container .list-contacts-person-details{float:left;clear:none;text-align:inherit;width:62%;margin-left:0%;margin-right:0;}
+.contact-text-container h3.list-contacts-name{margin-bottom:10px;margin-top:0;}
+.contact-text-container p.list-contacts-position{margin:0 !important;}
+.contact-text-container a.list-contacts-fon,
+.contact-text-container a.list-contacts-email{display:block;}
+
+.contact-text-container .center:after{content:'';display:table;clear:both;}
+
+
+@media only screen and (min-width: 768px) {
+
+	.contact-text-container .grid-column{display:block;float:left;clear:none;text-align:inherit;width:48.5%;margin-left:0%;margin-right:3%;}
+	.contact-text-container .grid-column:nth-child(2n){margin-right:0 !important;}
+	.contact-text-container .grid-column.left .grid-text{padding-right:20px;}
+	.contact-text-container .grid-column.right .grid-text{padding-left:20px;}
+	.contact-text-container .grid-column .grid-text h3{margin-top:0;}
+	.contact-text-container .grid-contact h3{margin-bottom:25px;}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.contact-text-container .grid-column{display:block;float:none;clear:both;width:100%;margin-left:0%;margin-right:0%;}
+	.contact-text-container .grid-column.left .grid-text{margin-bottom:35px;}
+
+	.contact-text-container .list-contacts-picture{float:none;width:100%;margin:0 0 15px 0 !important;text-align:center;}
+	.contact-text-container .list-contacts-person-details{float:none;clear:left;width:100%;margin-bottom:35px;}
+	.contact-text-container h3.list-contacts-name{display:block;text-align:center;}
+	.contact-text-container p.list-contacts-position{margin:0 !important;text-align:center;}
+	.contact-text-container a.list-contacts-fon,
+	.contact-text-container a.list-contacts-email{text-align:center;}
+
+}
