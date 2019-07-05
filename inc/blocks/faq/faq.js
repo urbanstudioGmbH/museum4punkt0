@@ -1,10 +1,26 @@
 (function($){
 	$(document).ready(function()
 	{	
-	   
+	   // init accordion for module
+	   $(".accordion").each(function(i, el) {
+	   		if( $(".ui-state-active", el).length !== 0 ) {
+	   			$(el).accordion({
+					heightStyle: "content"
+				});
+	   		} else {
+	   			$(el).accordion({
+					heightStyle: "content",
+					active: false,
+    				collapsible: true 
+				});
+	   			
+	   		}
+	   })
+		
+
 	    // Do not change anything below this line
 	
-	    var el;
+	    /*var el;
 	    
 	    var initialize = function()
 	    {
@@ -38,7 +54,6 @@
 		        $(this).parent().removeClass("active");
 		    }
 		}
-		
-		initialize();
+		*/
 	});
-})( window.jQuery || window.Zepto );
+})( window.jQuery );

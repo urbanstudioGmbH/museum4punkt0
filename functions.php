@@ -908,3 +908,10 @@ function processBlogFilters($data = null){
 		return new WP_Error( 'empty_data', __("Leider führte Ihre Suche zu keinem Ergebnis."), array('status' => 404) );
 	}
 }
+
+function kb_svg ( $svg_mime ){
+	$svg_mime['svg'] = 'image/svg+xml';
+	return $svg_mime;
+}
+
+add_filter( 'upload_mimes', 'kb_svg' );

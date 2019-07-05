@@ -70,7 +70,15 @@
 
 </footer>
 <!-- #footer // end // -->
-
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/vendor/slick.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/isotope-categoryRows.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.navpoints.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

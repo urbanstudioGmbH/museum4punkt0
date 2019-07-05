@@ -10,14 +10,14 @@ class block_us_faq{
         $this->block_us_faq_fields();
         acf_register_block(array(
             'name'				=> 'block_us_faq',
-            'title'				=> __('FAQ', "uslang"),
-            'description'		=> __('erzeugt einen FAQ-Block', "uslang"),
+            'title'				=> __('Accordion', "uslang"),
+            'description'		=> __('erzeugt einen Accordion-Block', "uslang"),
             'render_callback'	=> array($this, 'block_us_faq_render'),
             'category'		=> 'usblocks',
-            'icon'			=> '<svg aria-hidden="true" data-prefix="fas" data-icon="question" class="svg-inline--fa fa-question fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M202.021 0C122.202 0 70.503 32.703 29.914 91.026c-7.363 10.58-5.093 25.086 5.178 32.874l43.138 32.709c10.373 7.865 25.132 6.026 33.253-4.148 25.049-31.381 43.63-49.449 82.757-49.449 30.764 0 68.816 19.799 68.816 49.631 0 22.552-18.617 34.134-48.993 51.164-35.423 19.86-82.299 44.576-82.299 106.405V320c0 13.255 10.745 24 24 24h72.471c13.255 0 24-10.745 24-24v-5.773c0-42.86 125.268-44.645 125.268-160.627C377.504 66.256 286.902 0 202.021 0zM192 373.459c-38.196 0-69.271 31.075-69.271 69.271 0 38.195 31.075 69.27 69.271 69.27s69.271-31.075 69.271-69.271-31.075-69.27-69.271-69.27z"></path></svg>',
+            'icon'			=> '<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>',
             'keywords'		=> array("article", "featured"),
             'enqueue_assets' => function(){
-                wp_enqueue_style( 'block-us-faq', get_template_directory_uri()."/inc/blocks/faq/faq.css");
+                //wp_enqueue_style( 'block-us-faq', get_template_directory_uri()."/inc/blocks/faq/faq.css");
                 wp_enqueue_script( 'block-us-faq', get_template_directory_uri()."/inc/blocks/faq/faq.js", array('jquery'), '', true );
             }
         ));
@@ -37,16 +37,16 @@ class block_us_faq{
         $c = "";
 
         if($faqs && count($faqs)){
-            $theHTML = '<div class="block_us_faq margin-bottom-30 '.$alignclass.'" id="'.$blockid.'">';
+            $theHTML = '<div class="block_us_faq margin-bottom-30 cb_accordion '.$alignclass.'" id="'.$blockid.'"><div class="accordion">';
             $i = 0;
             foreach($faqs AS $faq){
-                $theHTML .= '<div class="faq-item'.(($faqFirstOpen && !$i) ? ' active' : '').'">';
-                    $theHTML .= '<div class="faq-question">'.$faq["question"].'<div class="arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></div></div>';
-                    $theHTML .= '<div class="faq-answer"'.(($faqFirstOpen && !$i) ? ' style="display: block;"' : '').'>'.apply_filters('the_content', $faq["answer"]).'</div>';
-                $theHTML .= '</div>';
+                $theHTML .= '<h3 class="'.(($faqFirstOpen && !$i) ? ' ui-accordion-header-active ui-state-active' : '').'">';
+                $theHTML .= $faq["question"].'</h3>';
+                $theHTML .= '<div class="ui-accordion-content '.(($faqFirstOpen && !$i) ? ' ui-accordion-content-active" style="display: block;"' : '"').'>'.apply_filters('the_content', $faq["answer"]).'</div>';
+
                 $i++;
             }
-            $theHTML .= '</div>';
+            $theHTML .= '</div></div>';
             $c .= $theHTML;
         }else{
             if(\is_admin()){
@@ -68,7 +68,7 @@ class block_us_faq{
                 'fields' => array(
                     array(
                         'key' => 'field_5c1f38ca17034',
-                        'label' => 'erstes Frage geöffnet?',
+                        'label' => 'erste Überschrift/Frage geöffnet?',
                         'name' => 'block_us_faq_fo',
                         'type' => 'true_false',
                         'instructions' => '',
@@ -87,7 +87,7 @@ class block_us_faq{
                     ),
                     array(
                         'key' => 'field_5c1f38f417035',
-                        'label' => 'Fragen / Antworten',
+                        'label' => 'Inhalt',
                         'name' => 'block_us_faq_index',
                         'type' => 'repeater',
                         'instructions' => '',
@@ -102,11 +102,11 @@ class block_us_faq{
                         'min' => 0,
                         'max' => 0,
                         'layout' => 'block',
-                        'button_label' => 'Frage hinzufügen',
+                        'button_label' => 'Überschrift/Frage hinzufügen',
                         'sub_fields' => array(
                             array(
                                 'key' => 'field_5c1f391217036',
-                                'label' => 'Frage',
+                                'label' => 'Überschrift/Frage',
                                 'name' => 'question',
                                 'type' => 'text',
                                 'instructions' => '',
@@ -125,7 +125,7 @@ class block_us_faq{
                             ),
                             array(
                                 'key' => 'field_5c1f392d17037',
-                                'label' => 'Antwort',
+                                'label' => 'Text/Antwort',
                                 'name' => 'answer',
                                 'type' => 'wysiwyg',
                                 'instructions' => '',

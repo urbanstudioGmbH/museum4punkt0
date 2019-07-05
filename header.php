@@ -19,6 +19,8 @@
 	<link rel="manifest" href="https://www.museum4punkt0.de/app/themes/museum40/site.webmanifest">
 */ ?>
 	<?php wp_head(); ?>
+	<!-- Overwrite CSS-->
+	<link type="text/css" media="all" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/m4p0.css">
 
 </head>
 

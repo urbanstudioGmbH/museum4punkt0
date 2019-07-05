@@ -1,0 +1,165 @@
+<?php
+
+class block_us_usage{
+
+    function __construct(){
+        add_action('acf/init', array($this, "block_us_usage_register"));
+    }
+
+    public function block_us_usage_register(){
+        $this->block_us_usage_fields();
+        acf_register_block(array(
+            'name'				=> 'block_us_usage',
+            'title'				=> __('Nutzungsinfos', "uslang"),
+            'description'		=> __('erzeugt einen Nutzungsinfo-Block', "uslang"),
+            'render_callback'	=> array($this, 'block_us_usage_render'),
+            'category'		=> 'usblocks',
+            'icon'			=> '<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copyright" class="svg-inline--fa fa-copyright fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm117.134 346.753c-1.592 1.867-39.776 45.731-109.851 45.731-84.692 0-144.484-63.26-144.484-145.567 0-81.303 62.004-143.401 143.762-143.401 66.957 0 101.965 37.315 103.422 38.904a12 12 0 0 1 1.238 14.623l-22.38 34.655c-4.049 6.267-12.774 7.351-18.234 2.295-.233-.214-26.529-23.88-61.88-23.88-46.116 0-73.916 33.575-73.916 76.082 0 39.602 25.514 79.692 74.277 79.692 38.697 0 65.28-28.338 65.544-28.625 5.132-5.565 14.059-5.033 18.508 1.053l24.547 33.572a12.001 12.001 0 0 1-.553 14.866z"></path></svg>',
+            'keywords'		=> array("article", "featured"),
+            'enqueue_assets' => function(){
+                //wp_enqueue_style( 'block-us-faq', get_template_directory_uri()."/inc/blocks/faq/faq.css");
+                //wp_enqueue_script( 'block-us-faq', get_template_directory_uri()."/inc/blocks/faq/faq.js", array('jquery'), '', true );
+            }
+        ));
+        //add_editor_style("inc/blocks/faq/faq.css");
+    }
+
+    public function block_us_usage_render($block, $content = '', $is_preview = false){
+        $content_before = get_field('content_before');
+        $blockid = 'block_us_usage-' . $block['id'];
+        // check if the repeater field has rows of data
+        if( have_rows('block_us_usage_index') ): 
+
+
+            
+        ?>
+
+        <div id="usage" class="block_us_usage cb_module cb_usage alignfull" id="<?=$blockid; ?>">
+            <div class="center">
+                <?php 
+                $headline = get_field("headline");
+                if (!empty($headline)): ?>
+                <h2><?=$headline; ?></h2>
+                <?php endif; ?>
+            
+        <?php    // loop through the rows of data
+            while ( have_rows('block_us_usage_index') ) : the_row(); 
+
+                $block = get_sub_field('block');
+                if ( !empty( $block ) ): ?>
+                <div>
+                    <?php the_sub_field('block'); ?>
+                </div>
+                <?php
+                endif;    
+                
+                endwhile; ?>
+            </div>
+        </div>
+        <?php else :
+
+            
+            if(\is_admin()){
+                $c .= '<div class="block_us_faq '.$alignclass.'" id="'.$blockid.'">';
+                    $c .= '<h3>Hinweis!</h3>';
+                    $c .= '<div class="usdc_text">Wechseln Sie in den Bearbeiten-Modus oder passe diesen Block in den Blockeinstellungen in der rechten Seitenleiste an.</div>';
+                $c .= '</div>';
+                echo $c;
+            }
+       
+
+        endif;
+    
+
+    }
+
+    public function block_us_usage_fields(){
+        if( function_exists('acf_add_local_field_group') ):
+
+            acf_add_local_field_group(array(
+                'key' => 'group_5d07c3cbf1fd8',
+                'title' => 'block_us_usage',
+                'fields' => array(
+                    array(
+                        'key' => 'field_5d07c4ae419e1',
+                        'label' => 'Überschrift',
+                        'name' => 'headline',
+                        'type' => 'text',
+                        'instructions' => '',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'default_value' => 'Nachnutzung',
+                        'placeholder' => 'Nachnutzung',
+                        'prepend' => '',
+                        'append' => '',
+                        'maxlength' => '',
+                    ),
+                    array(
+                        'key' => 'field_5d07c3dbb5db4',
+                        'label' => 'Nutzungsinfos',
+                        'name' => 'block_us_usage_index',
+                        'type' => 'repeater',
+                        'instructions' => '',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'collapsed' => '',
+                        'min' => 0,
+                        'max' => 0,
+                        'layout' => 'table',
+                        'button_label' => '',
+                        'sub_fields' => array(
+                            array(
+                                'key' => 'field_5d07c3f8b5db5',
+                                'label' => 'Titel & Inhalt',
+                                'name' => 'block',
+                                'type' => 'wysiwyg',
+                                'instructions' => '',
+                                'required' => 0,
+                                'conditional_logic' => 0,
+                                'wrapper' => array(
+                                    'width' => '',
+                                    'class' => '',
+                                    'id' => '',
+                                ),
+                                'default_value' => '',
+                                'tabs' => 'all',
+                                'toolbar' => 'full',
+                                'media_upload' => 1,
+                                'delay' => 0,
+                            ),
+                        ),
+                    ),
+                ),
+                'location' => array(
+                    array(
+                        array(
+                            'param' => 'block',
+                            'operator' => '==',
+                            'value' => 'acf/block-us-usage',
+                        ),
+                    ),
+                ),
+                'menu_order' => 0,
+                'position' => 'normal',
+                'style' => 'default',
+                'label_placement' => 'top',
+                'instruction_placement' => 'field',
+                'hide_on_screen' => '',
+                'active' => true,
+                'description' => '',
+            ));
+
+            endif;
+    }
+}
+$block_us_usage = new block_us_usage();

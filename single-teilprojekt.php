@@ -14,20 +14,25 @@ get_header();
 
 <main class="single">
 	<div class="center">
-	<article class="blogpost">
-		
-        	
-		<?php while (have_posts()) : the_post(); ?>
-       
-			<?php the_content(); ?>
+		<article class="blogpost project">
+	        	
+			<?php while (have_posts()) : the_post(); ?>
+	       
+				<?php the_content(); ?>
+				
+				<?php the_tags( '<div class="meta-tags"><i class="fas fa-tag"></i> ', ' &nbsp; ', '</div>' ); ?>
+
+				
+
 			
-			<?php the_tags( '<div class="meta-tags"><i class="fas fa-tag"></i> ', ' &nbsp; ', '</div>' ); ?>
-		
-    </article>
+
 		
         <?php endwhile; // End the loop. Whew.  ?>
 
-	</div><!-- end # center -->
+	
+
+
+</main>
 
 
 	<?php if(themeHelper::checkCommentsAllowed()){
