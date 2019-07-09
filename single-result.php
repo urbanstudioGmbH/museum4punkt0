@@ -119,7 +119,15 @@ get_header();
 			<footer>
 				
 				<div class="cb_module cb_sharing">
-					<?php echo do_shortcode('[shariff]'); ?>
+					<?php //echo do_shortcode('[shariff]'); ?>
+					<?php
+
+					$sharer = new themeHelper($post);
+
+					$sharer->getSharingOptions();
+
+					?>
+
 				</div>
 			</footer>
 		</article>

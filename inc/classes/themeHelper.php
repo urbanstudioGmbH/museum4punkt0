@@ -158,19 +158,24 @@ class themeHelper{
         if($type == null) return;
         switch($type){
             case "fb":
-                return '<a href="https://www.facebook.com/sharer/sharer.php?u='.urlencode($url).'" class="sharer-popup" title="'.esc_attr(__("Diesen Beitrag auf Facebook teilen.", "uslang")).'"><i class="fab fa-facebook-f"></i> '.__("teilen", "uslang").'</a>';
+                return '<a href="https://www.facebook.com/sharer/sharer.php?u='.urlencode($url).'" class="sharer-popup facebook" title="'.esc_attr(__("Diesen Beitrag auf Facebook teilen.", "uslang")).'"><i class="fab fa-facebook-f"></i> '.__("teilen", "uslang").'</a>';
             break;
 
             case "twitter":
-                return '<a href="https://twitter.com/share?url='.urlencode($url).'&text='.urlencode($title).'" class="sharer-popup" title="'.esc_attr(__("Diesen Beitrag twittern.", "uslang")).'"><i class="fab fa-twitter"></i> '.__("twittern", "uslang").'</a>';
+                return '<a href="https://twitter.com/share?url='.urlencode($url).'&text='.urlencode($title).'" class="sharer-popup twitter" title="'.esc_attr(__("Diesen Beitrag twittern.", "uslang")).'"><i class="fab fa-twitter"></i> '.__("twittern", "uslang").'</a>';
             break;
 
             case "wa":
-                return '<a href="https://wa.me/?text='.urlencode($title."\n\n".$text."\n\n".$url).'" class="sharer-popup" title="'.esc_attr(__("Diesen Beitrag via WhatsApp teilen.", "uslang")).'"><i class="fab fa-whatsapp"></i> '.__("teilen", "uslang").'</a>';
+                return '<a href="https://wa.me/?text='.urlencode($title."\n\n".$text."\n\n".$url).'" class="sharer-popup whatsapp" title="'.esc_attr(__("Diesen Beitrag via WhatsApp teilen.", "uslang")).'"><i class="fab fa-whatsapp"></i> '.__("teilen", "uslang").'</a>';
+            break;
+            
+            case "rss":
+                $home = get_home_url();
+                return '<a href="'.$home.'/feed/rss" class="sharer-popup rss" title="'.esc_attr(__("Diesen Beitrag via RSS abonnieren.", "uslang")).'"><i class="fab fa-rss"></i> '.__("rss", "uslang").'</a>';
             break;
 
             case "email":
-                return '<a href="mailto:?subject='.__("Link-Empfehlung", "uslang").'&body='.$title."%0A%0A".$text."%0A%0A".$url.'" title="'.esc_attr(__("Diesen Beitrag via E-Mail teilen.", "uslang")).'"><i class="fas fa-envelope"></i> '.__("E-Mail", "uslang").'</a>';
+                return '<a href="mailto:?subject='.__("Link-Empfehlung", "uslang").'&body='.$title."%0A%0A".$text."%0A%0A".$url.'" title="'.esc_attr(__("Diesen Beitrag via E-Mail teilen.", "uslang")).'" class="mail"><i class="fas fa-envelope"></i> '.__("E-Mail", "uslang").'</a>';
             break;
         }
         return;

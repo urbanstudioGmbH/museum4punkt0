@@ -1450,6 +1450,59 @@ body {
         display: inline; }
       body .cb_usage .center > div *:last-child {
         margin-bottom: 0; }
+  body .cb_sharing .us-sharer {
+    max-width: initial;
+    text-align: center; }
+    body .cb_sharing .us-sharer a.facebook {
+      background-image: url("../images/facebook-icon.svg") !important; }
+      @media (min-width: 400px) {
+        body .cb_sharing .us-sharer a.facebook {
+          background-position: left 13px center; } }
+    body .cb_sharing .us-sharer a.twitter {
+      background-image: url("../images/twitter-icon.svg") !important;
+      -webkit-background-size: auto 45%;
+      background-size: auto 45%; }
+    body .cb_sharing .us-sharer a.mail {
+      background-image: url("../images/mail-icon.svg") !important; }
+    body .cb_sharing .us-sharer a.rss {
+      background-image: url("../images/rss-icon.svg") !important; }
+    body .cb_sharing .us-sharer a {
+      background-color: black !important;
+      text-align: left;
+      color: white;
+      height: auto;
+      display: inline-block;
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none;
+      float: none;
+      padding: 5px 10px 5px 35px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+      text-indent: -9999px;
+      text-decoration: none;
+      font-weight: 700;
+      max-width: 40px;
+      background-position: center center;
+      -webkit-background-size: auto 50%;
+      background-size: auto 50%;
+      background-repeat: no-repeat;
+      width: auto !important; }
+      body .cb_sharing .us-sharer a .shariff-icon, body .cb_sharing .us-sharer a .fab, body .cb_sharing .us-sharer a .fab, body .cb_sharing .us-sharer a i {
+        display: none; }
+      body .cb_sharing .us-sharer a:hover {
+        background-color: #555555; }
+    @media (min-width: 400px) {
+      body .cb_sharing .us-sharer a {
+        background-position: left 8px center;
+        max-width: initial;
+        margin: 0 3px;
+        text-indent: initial; } }
+    @media (min-width: 768px) {
+      body .cb_sharing .us-sharer a {
+        min-width: 150px;
+        padding: 5px 15px 5px 45px; } }
   body .cb_sharing ul, body .cb_sharing ul.shariff-buttons {
     width: 100%;
     margin: 60px 0;
