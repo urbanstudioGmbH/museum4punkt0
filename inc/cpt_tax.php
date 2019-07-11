@@ -250,3 +250,250 @@ function cptui_register_my_taxes() {
 }
 add_action( 'acf/init', 'cptui_register_my_taxes' );
 
+// Ergebnisse
+
+function cptui_register_my_cpts_result() {
+
+    /**
+     * Post Type: Ergebnisse.
+     */
+
+    $labels = array(
+        "name" => __( "Ergebnisse", "custom-post-type-ui" ),
+        "singular_name" => __( "Ergebnis", "custom-post-type-ui" ),
+    );
+
+    $args = array(
+        "label" => __( "Ergebnisse", "custom-post-type-ui" ),
+        "labels" => $labels,
+        "description" => "",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "delete_with_user" => false,
+        "show_in_rest" => true,
+        "rest_base" => "",
+        "rest_controller_class" => "WP_REST_Posts_Controller",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array( "slug" => "result", "with_front" => true ),
+        "query_var" => true,
+        "menu_position" => 16,
+        "menu_icon" => "dashicons-format-aside",
+        "supports" => array( "title", "editor", "thumbnail", "excerpt" ),
+        "taxonomies" => array( "communicationmethod", "technology", "resulttype", "insights", "applicationfields" ),
+    );
+
+    register_post_type( "result", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_result' );
+
+// cpt approaches
+function cptui_register_my_cpts_approach() {
+
+    /**
+     * Post Type: Umsetzungsansätze.
+     */
+
+    $labels = array(
+        "name" => __( "Umsetzungsansätze", "custom-post-type-ui" ),
+        "singular_name" => __( "Umsetzungsansatz", "custom-post-type-ui" ),
+    );
+
+    $args = array(
+        "label" => __( "Umsetzungsansätze", "custom-post-type-ui" ),
+        "labels" => $labels,
+        "description" => "",
+        "public" => true,
+        "publicly_queryable" => true,
+        "show_ui" => true,
+        "delete_with_user" => false,
+        "show_in_rest" => true,
+        "rest_base" => "",
+        "rest_controller_class" => "WP_REST_Posts_Controller",
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array( "slug" => "approach", "with_front" => true ),
+        "query_var" => true,
+        "menu_position" => 15,
+        "supports" => array( "title", "editor", "thumbnail" ),
+    );
+
+    register_post_type( "approach", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_approach' );
+
+// Result taxonomies
+function cptui_register_my_taxes_communicationmethod() {
+
+    /**
+     * Taxonomy: Wie wird vermittelt?.
+     */
+
+    $labels = array(
+        "name" => __( "Wie wird vermittelt?", "custom-post-type-ui" ),
+        "singular_name" => __( "Vermittlungsmethode", "custom-post-type-ui" ),
+    );
+
+    $args = array(
+        "label" => __( "Wie wird vermittelt?", "custom-post-type-ui" ),
+        "labels" => $labels,
+        "public" => true,
+        "publicly_queryable" => true,
+        "hierarchical" => false,
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'communicationmethod', 'with_front' => true, ),
+        "show_admin_column" => false,
+        "show_in_rest" => true,
+        "rest_base" => "communicationmethod",
+        "rest_controller_class" => "WP_REST_Terms_Controller",
+        "show_in_quick_edit" => false,
+        );
+    register_taxonomy( "communicationmethod", array( "result" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_communicationmethod' );
+
+
+function cptui_register_my_taxes_technology() {
+
+    /**
+     * Taxonomy: Technologie.
+     */
+
+    $labels = array(
+        "name" => __( "Technologie", "custom-post-type-ui" ),
+        "singular_name" => __( "Technologie", "custom-post-type-ui" ),
+    );
+
+    $args = array(
+        "label" => __( "Technologie", "custom-post-type-ui" ),
+        "labels" => $labels,
+        "public" => true,
+        "publicly_queryable" => true,
+        "hierarchical" => false,
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'technology', 'with_front' => true, ),
+        "show_admin_column" => false,
+        "show_in_rest" => true,
+        "rest_base" => "technology",
+        "rest_controller_class" => "WP_REST_Terms_Controller",
+        "show_in_quick_edit" => false,
+        );
+    register_taxonomy( "technology", array( "result" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_technology' );
+
+
+function cptui_register_my_taxes_resulttype() {
+
+    /**
+     * Taxonomy: Ergebnistypen.
+     */
+
+    $labels = array(
+        "name" => __( "Ergebnistypen", "custom-post-type-ui" ),
+        "singular_name" => __( "Ergebnistyp", "custom-post-type-ui" ),
+    );
+
+    $args = array(
+        "label" => __( "Ergebnistypen", "custom-post-type-ui" ),
+        "labels" => $labels,
+        "public" => true,
+        "publicly_queryable" => true,
+        "hierarchical" => false,
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'resulttype', 'with_front' => true, ),
+        "show_admin_column" => false,
+        "show_in_rest" => true,
+        "rest_base" => "resulttype",
+        "rest_controller_class" => "WP_REST_Terms_Controller",
+        "show_in_quick_edit" => false,
+        );
+    register_taxonomy( "resulttype", array( "result" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_resulttype' );
+
+function cptui_register_my_taxes_insights() {
+
+    /**
+     * Taxonomy: Erkenntnisse zu.
+     */
+
+    $labels = array(
+        "name" => __( "Erkenntnisse zu", "custom-post-type-ui" ),
+        "singular_name" => __( "Erkenntnis", "custom-post-type-ui" ),
+    );
+
+    $args = array(
+        "label" => __( "Erkenntnisse zu", "custom-post-type-ui" ),
+        "labels" => $labels,
+        "public" => true,
+        "publicly_queryable" => true,
+        "hierarchical" => false,
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'insights', 'with_front' => true, ),
+        "show_admin_column" => false,
+        "show_in_rest" => true,
+        "rest_base" => "insights",
+        "rest_controller_class" => "WP_REST_Terms_Controller",
+        "show_in_quick_edit" => false,
+        );
+    register_taxonomy( "insights", array( "result" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_insights' );
+
+function cptui_register_my_taxes_applicationfields() {
+
+    /**
+     * Taxonomy: Anwendungsbereiche.
+     */
+
+    $labels = array(
+        "name" => __( "Anwendungsbereiche", "custom-post-type-ui" ),
+        "singular_name" => __( "Anwendungsbereich", "custom-post-type-ui" ),
+    );
+
+    $args = array(
+        "label" => __( "Anwendungsbereiche", "custom-post-type-ui" ),
+        "labels" => $labels,
+        "public" => true,
+        "publicly_queryable" => true,
+        "hierarchical" => false,
+        "show_ui" => true,
+        "show_in_menu" => true,
+        "show_in_nav_menus" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'applicationfields', 'with_front' => true, ),
+        "show_admin_column" => false,
+        "show_in_rest" => true,
+        "rest_base" => "applicationfields",
+        "rest_controller_class" => "WP_REST_Terms_Controller",
+        "show_in_quick_edit" => false,
+        );
+    register_taxonomy( "applicationfields", array( "result" ), $args );
+}
+add_action( 'init', 'cptui_register_my_taxes_applicationfields' );
