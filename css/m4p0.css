@@ -1488,7 +1488,8 @@ body {
       -webkit-background-size: auto 50%;
       background-size: auto 50%;
       background-repeat: no-repeat;
-      width: auto !important; }
+      width: auto !important;
+      margin-bottom: 10px; }
       body .cb_sharing .us-sharer a .shariff-icon, body .cb_sharing .us-sharer a .fab, body .cb_sharing .us-sharer a .fab, body .cb_sharing .us-sharer a i {
         display: none; }
       body .cb_sharing .us-sharer a:hover {
@@ -1497,7 +1498,7 @@ body {
       body .cb_sharing .us-sharer a {
         background-position: left 8px center;
         max-width: initial;
-        margin: 0 3px;
+        margin: 0 3px 10px 3px;
         text-indent: initial; } }
     @media (min-width: 768px) {
       body .cb_sharing .us-sharer a {

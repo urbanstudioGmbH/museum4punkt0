@@ -1666,6 +1666,8 @@ acf_add_local_field_group(array(
 	'description' => '',
 ));
 
+if( function_exists('acf_add_local_field_group') ):
+
 acf_add_local_field_group(array(
 	'key' => 'group_5bee6439b4b4d',
 	'title' => 'Theme Optionen',
@@ -1731,7 +1733,6 @@ acf_add_local_field_group(array(
 				'class' => '',
 				'id' => '',
 			),
-			'wpml_cf_preferences' => 0,
 			'choices' => array(
 				'page' => 'Seiten',
 				'post' => 'Blogbeiträge',
@@ -1739,6 +1740,8 @@ acf_add_local_field_group(array(
 				'news' => 'Pressenews',
 				'teilprojekt' => 'Teilprojekte',
 				'partner' => 'Partner',
+				'result' => 'Ergebnisse',
+				'approach' => 'Umsetzungsansätze',
 			),
 			'allow_custom' => 0,
 			'default_value' => array(
@@ -1764,12 +1767,12 @@ acf_add_local_field_group(array(
 				'class' => '',
 				'id' => '',
 			),
-			'wpml_cf_preferences' => 0,
 			'choices' => array(
 				'fb' => 'Facebook',
 				'twitter' => 'Twitter',
 				'wa' => 'WhatsApp',
 				'email' => 'E-Mail',
+				'rss' => 'RSS',
 			),
 			'allow_custom' => 0,
 			'default_value' => array(
