@@ -558,14 +558,15 @@
                     "class": "",
                     "id": ""
                 },
-                "wpml_cf_preferences": 0,
                 "choices": {
                     "page": "Seiten",
                     "post": "Blogbeiträge",
                     "events": "Veranstaltungen",
                     "news": "Pressenews",
                     "teilprojekt": "Teilprojekte",
-                    "partner": "Partner"
+                    "partner": "Partner",
+                    "result": "Ergebnisse",
+                    "approach": "Umsetzungsansätze"
                 },
                 "allow_custom": 0,
                 "default_value": [
@@ -591,12 +592,12 @@
                     "class": "",
                     "id": ""
                 },
-                "wpml_cf_preferences": 0,
                 "choices": {
                     "fb": "Facebook",
                     "twitter": "Twitter",
                     "wa": "WhatsApp",
-                    "email": "E-Mail"
+                    "email": "E-Mail",
+                    "rss": "RSS"
                 },
                 "allow_custom": 0,
                 "default_value": [
