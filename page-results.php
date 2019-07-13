@@ -115,6 +115,8 @@ get_header();
 
 					$args = array(
 					    'post_type'=> 'result',
+					    'posts_per_page' => -1,
+					    'nopaging' => true,					    
 					    'order'    => 'ASC'
 					    );              
 
@@ -139,25 +141,47 @@ get_header();
 									<div class="meta">
 										<span class="insights">
 											<?php 
-												echo wp_get_post_terms(get_the_ID(), 'insights')[0]->name;
+												$insights = wp_get_post_terms(get_the_ID(), 'insights')[0]->name;
+												if (empty($insights) ) {
+													echo "Nicht eingeordnet";
+												} else {
+													echo $insights;
+												}
 											?>
 
 										</span>
 
 										<span class="applicationfields">
 											<?php 
-												echo wp_get_post_terms(get_the_ID(), 'applicationfields')[0]->name;
+												$applicationfields = wp_get_post_terms(get_the_ID(), 'applicationfields')[0]->name;
+												if (empty($applicationfields) ) {
+													echo "Nicht eingeordnet";
+												} else {
+													echo $applicationfields;
+												}
 											?>
 										</span>
 
 										<strong class="resulttype" <?php if(wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name == "Nicht eingeordnet"):?>style="display:none"<?php endif; ?>>
+											
 											<?php 
-												echo wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name;
+												$resulttype = wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name;
+												if (empty($resulttype) ) {
+													echo "Nicht eingeordnet";
+												} else {
+													echo $resulttype;
+												}
 											?>
 										</strong> <?php if(wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name !== "Nicht eingeordnet" && wp_get_post_terms(get_the_ID(), 'technology')[0]->name !== "Nicht eingeordnet"):?>für<?php endif; ?> 
 										<strong class="technology" <?php if(wp_get_post_terms(get_the_ID(), 'technology')[0]->name == "Nicht eingeordnet"):?>style="display:none"<?php endif; ?>>
+											
 											<?php 
-												echo wp_get_post_terms(get_the_ID(), 'technology')[0]->name;
+												$technology = wp_get_post_terms(get_the_ID(), 'technology')[0]->name;
+												if (empty($technology) ) {
+													echo "Nicht eingeordnet";
+												} else {
+													echo $technology;
+												}
 											?>
 										</strong>
 									</div>
@@ -167,9 +191,14 @@ get_header();
 								<figure style="background-image:url(<?=$thumbnail; ?>)" >
 									<?php echo get_the_post_thumbnail(get_the_ID()); ?>
 								</figure>
-								<footer class="communicationmethod" <?php if(wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name == "Nicht eingeordnet"):?>style="visibility: hidden"<?php endif; ?>>
+								<footer class="communicationmethod" <?php if(wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name == "Nicht eingeordnet" || empty(wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name)):?>style="visibility: hidden"<?php endif; ?>>
 									<?php 
-										echo wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name;
+										$communicationmethod = wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name;
+										if (empty($communicationmethod) ) {
+											echo "Nicht eingeordnet";
+										} else {
+											echo $communicationmethod;
+										}
 									?>
 								</footer>
 							</article>
