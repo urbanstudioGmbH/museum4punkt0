@@ -77,6 +77,7 @@ function US_toTop(){
 		// save last scroll pos
 		var lastScrollTop = 0;
 		var jumptop = 0;
+		var diff = 100;
 		// on scroll, update scroll pos
 		$(window).scroll(function(event){
 		  var st = $(this).scrollTop();
@@ -103,7 +104,8 @@ function US_toTop(){
 			var intViewportWidth = window.innerWidth;
 			var intViewportHeight = window.innerHeight;
 			// get height of navigation based on css breakpoints
-			var diff = $("#header").height();
+			diff = $("#header").height();
+
 			var menuHeight = $(".sortable-menu-wrapper").height();
 			$(".sortable-menu-placeholder").css("min-height", menuHeight + "px");
 
@@ -426,7 +428,14 @@ function US_toTop(){
 		$("#scrolltop-results").on("click", function(e) {
 			e.preventDefault();
 			$("html, body").animate({ scrollTop: jumptop }, 150); 
-		})
+		});
+		$(".arrow-down").on("click", function(e) {
+			e.preventDefault();
+			var scrollto = $(this).attr("href");
+			var scrolltoOffset = $(scrollto).offset().top;
+			scrolltoOffset = scrolltoOffset - diff;
+			$("html, body").animate({ scrollTop: scrolltoOffset }, 150); 
+		});
 		// toggle info box on result detail
 		$(".infobox .arrow-plus").on("click", function(e) {
 			e.preventDefault();

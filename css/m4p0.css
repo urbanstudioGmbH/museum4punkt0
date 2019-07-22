@@ -884,8 +884,8 @@ body {
             display: none; }
         body .item article header h1 {
           text-align: left;
-          font-size: 18px;
-          line-height: 25px;
+          font-size: 17px;
+          line-height: 22px;
           margin-top: 5px; }
         body .item article header:before {
           -webkit-transition: all 0.7s cubic-bezier(0.21, 0, 0.17, 0.96);
