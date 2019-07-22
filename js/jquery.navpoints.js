@@ -76,7 +76,7 @@
 				}
 				else {
 					
-					if ( !$('a[href="#' + result + '"]').hasClass(settings.currentClass)) {
+					/*if ( !$('a[href="#' + result + '"]').parent().hasClass(settings.currentClass)) {
 
 						var $parent = $('a[href="#' + result + '"]').parents("ul");
 
@@ -85,10 +85,10 @@
 				            .position().left - self.$items.offset().left;                   
 				        
 				        $parent.animate({'scrollLeft': scrollTo}, 500);    
-
-					}
-					self.$items.removeClass(settings.currentClass);
-					$('a[href="#' + result + '"]').addClass(settings.currentClass);
+				        
+					}*/
+					self.$items.parent().removeClass(settings.currentClass);
+					$('a[href="#' + result + '"]').parent().addClass(settings.currentClass);
 					
 					
 					

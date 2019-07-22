@@ -58,8 +58,10 @@
 	$(document).ready(function(){
 		console.log("in docready");
     	$('.block_us_slider').each(function(){
-            initializeBlock( $(this) );
+    		var block = this;
+    		$('img', this).load(function() {
+			    initializeBlock($(block));
+			});
         });
-        
 	});
 })(jQuery);

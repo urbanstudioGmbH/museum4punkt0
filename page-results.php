@@ -110,6 +110,7 @@ get_header();
 			
 								
 			<div class="center">
+				<a href="#sortable" id="scrolltop-results" style="display:none">Scroll to top</a>
 				<div id="sortable-content" class="items">
 					<?php 
 
@@ -172,7 +173,12 @@ get_header();
 													echo $resulttype;
 												}
 											?>
-										</strong> <?php if(wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name !== "Nicht eingeordnet" && wp_get_post_terms(get_the_ID(), 'technology')[0]->name !== "Nicht eingeordnet"):?>für<?php endif; ?> 
+										</strong> <?php 
+										if(
+											wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name !== "Nicht eingeordnet" && 
+											wp_get_post_terms(get_the_ID(), 'technology')[0]->name !== "Nicht eingeordnet"
+										):?>&mdash;<?php endif; ?> 
+										
 										<strong class="technology" <?php if(wp_get_post_terms(get_the_ID(), 'technology')[0]->name == "Nicht eingeordnet"):?>style="display:none"<?php endif; ?>>
 											
 											<?php 

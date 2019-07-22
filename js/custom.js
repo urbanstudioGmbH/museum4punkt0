@@ -59,11 +59,24 @@ function US_toTop(){
 				var plainType = type.replace(/\W/g,'_');
 				$(el).attr("href", "#"+plainType);
 			});
+
+
+
+			$('html').click(function() {
+				console.log("click");
+			  	if ( $("#sortable-menu ul").hasClass("show") ) {
+					$("#sortable-menu ul").removeClass("show");
+				}
+			});
+
+			$('#sortable-menu').click(function(event){
+			    event.stopPropagation();
+			});
 		}
 	  	
 		// save last scroll pos
 		var lastScrollTop = 0;
-
+		var jumptop = 0;
 		// on scroll, update scroll pos
 		$(window).scroll(function(event){
 		  var st = $(this).scrollTop();
@@ -94,26 +107,39 @@ function US_toTop(){
 			var menuHeight = $(".sortable-menu-wrapper").height();
 			$(".sortable-menu-placeholder").css("min-height", menuHeight + "px");
 
+
+			jumptop = sortableOffset - diff;
 			// fix sortable navigation if:
 			// sortable offset not 0 (mobile)
 			// and scrollpos is bigger than sortable offset - navigation height
 			// and scrollpos smaller than sortable end (or bigger than following content offset)
 			if (sortableOffset !== 0 && st > (sortableOffset - diff)  && intViewportWidth >= 768 && st < (followingOffset.top - diff - 100)) {
 				$("#sortable").addClass("fixed");
-
+				
 				$(".sortable-menu-wrapper").css("top", diff + "px");
+				if (st > jumptop) {
+					$("#scrolltop-results").show();
+				}
+				
 
 			} else if (sortableOffset !== 0 && st <= (sortableOffset - diff) || st >= (followingOffset.top - diff - 100)) {
 				$("#sortable").removeClass("fixed");
+				$("#scrolltop-results").hide();
 			}
 			// show fixed jump menu on mobile if 
 			// is mobile (< tablet) 
 			// and scrollpos is smaller than sortable end (or bigger than following content offset)
 			if (intViewportWidth < 768 && st >= (followingOffset.top - intViewportHeight)) {
 				$("#jump-menu").hide();
+				$("#scrolltop-results").hide();
 			} else {
 				$("#jump-menu").show();
+				if (intViewportWidth < 768 && st > jumptop) {
+					$("#scrolltop-results").show();
+				}
+				
 			}
+
 		}
 
 
@@ -174,12 +200,15 @@ function US_toTop(){
 		});
 		// dropdown select for sort category on mobile
 		$(".selected-helper").on("click", function(e) {
-			if ( $("#sortable-menu").hasClass("show") ) {
+			$("#jump-menu ul.show-mobile").removeClass("show-mobile");
+			if ( $("#sortable-menu ul").hasClass("show") ) {
 				$("#sortable-menu ul").removeClass("show");
 			} else {
 				$("#sortable-menu ul").addClass("show");
 			}
 		});
+
+		
 
 		// select sort category
 		$("#sortable-menu li a").on("click", function(e) {
@@ -191,7 +220,7 @@ function US_toTop(){
 			// get sortable offset top and scroll to it, to reset scroll pos
 			var sortableOffset = 0;
 			// breakpoint for smaller headbar
-			var intViewportWidth = window.innerWidth;
+			
 			// get height of navigation based on css breakpoints
 			var diff = $("#header").height();
 			sortableOffset = $("#sortable").offset();
@@ -202,6 +231,8 @@ function US_toTop(){
 				$("html, body").animate({ scrollTop: sortableOffset }, 150); 
 			}
 			
+
+
 			
 			
 			
@@ -281,13 +312,14 @@ function US_toTop(){
 				// get category
 				var sortSelector = $(this).attr("href");
 
+
 				// show selected jump-menu by category
 				$(sortSelector).show();
 				
 				// remove old active class
-				$('li a.active', sortSelector).removeClass("active");
+				$('li', sortSelector).removeClass("active");
 				// set active class to first headline
-				$('li:first-child a', sortSelector).addClass("active");
+				$('li:first-child', sortSelector).addClass("active");
 
 				//console.log(sortSelector);
 				
@@ -324,6 +356,7 @@ function US_toTop(){
 				// set nav points for jump-menu indication
 				setTimeout(function() {
 					$(sortSelector).navpoints({offset: 100});
+
 				},1000);
 			}
 
@@ -331,24 +364,40 @@ function US_toTop(){
 
 			
 		});
-
+		var jumping = false;
 		// jump to headline with click on jump-menu item 
 		$("#jump-menu a").on("click", function(e) {
+			jumping = true;
 			e.preventDefault();
+			$("#sortable-menu ul").removeClass("show");
+			
 
 			// default (mobile)
 			var fixedOffset = 0;
-
+			var intViewportWidth = window.innerWidth;
 			// if is desktop view with fixed navigations
-			if ($("#sortable").hasClass("fixed")) {
+			if (intViewportWidth >= 768) {
 				fixedOffset = (160 + 107); // height of fixed navigation + fixed sortable menus
 			}
+			console.log(fixedOffset);
+			var stopScroll = false;
+			if (fixedOffset == 0) {
+				var sortSelector = $("#sorts li a.selected").attr("href");
+				if ( $(this).parents("ul").find("li:not(.active)").is(":hidden") ) {
+					$(sortSelector).addClass("show-mobile");
+					stopScroll = true;
+				} else {
+					$(sortSelector).removeClass("show-mobile");
+				}
+			}
+
+			
 
 			// get jump href
 			var hRef = $(this).attr("href");
 
 			// if jump target (separating headline) exists, scroll to target
-			if ($(hRef).length !== 0)  {
+			if ($(hRef).length !== 0 && stopScroll == false)  {
 				// get target offset
 				var hrefOffset = $(hRef).offset();
 				// calculate with fixed navigations
@@ -359,8 +408,24 @@ function US_toTop(){
 				// no items with this tag
 				console.log("no items for this target");
 			}
+			stopScroll = false;
 			
 
+		});
+		$("#jump-menu ul").on("click", function(e) {
+			if (jumping == false) {
+				if ($(this).hasClass("show-mobile")) {
+					$(this).removeClass("show-mobile");
+				}
+			} else {
+				jumping = false;
+			}
+			
+		});
+
+		$("#scrolltop-results").on("click", function(e) {
+			e.preventDefault();
+			$("html, body").animate({ scrollTop: jumptop }, 150); 
 		})
 		// toggle info box on result detail
 		$(".infobox .arrow-plus").on("click", function(e) {
