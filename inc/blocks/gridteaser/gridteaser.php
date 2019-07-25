@@ -71,7 +71,7 @@ class block_us_gridteaser{
                             }
                             echo '<div class="content">';
                                 echo '<h3 class="article-title"><a href="'.$link.'" title="'.$title.'">'.$hl.'</a></h3>';
-                                if ($box->type == "int") echo '<h4 class="project">'.$p["label"].'</h4>';
+                                if ($box->type == "int" && !empty($p["label"])) echo '<h4 class="project">'.$p["label"].'</h4>';
                                 echo '<span class="excerpt">'.esc_html(get_the_excerpt($box->post)).'</span>';
                             echo '</div>';
                             echo '<div class="clear"></div>';
