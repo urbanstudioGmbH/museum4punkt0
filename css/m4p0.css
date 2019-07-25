@@ -7,7 +7,7 @@
 	}
 }
 */
-* {
+*:not(.fa) {
   font-family: 'larseit', sans-serif !important; }
 
 a {
@@ -102,7 +102,7 @@ body {
     @media (min-width: 768px) {
       body article h4 {
         font-size: 24px;
-        line-height: 36px;
+        line-height: 32px;
         margin-top: 35px; } }
   body article figure figcaption,
   body article .gallery-grid-container .grid-gallery figcaption,
@@ -119,7 +119,11 @@ body {
     margin: 0;
     font-family: 'larseit', sans-serif;
     color: black; }
-  body h1.post-header-title {
+  body h1.post-header-title,
+  body .blog-navigation-container a.previous-link, body .blog-navigation-container a.next-link,
+  body .comment-form input[type='submit'],
+  body .blog-teilprojekt-container .tp-content h4,
+  body #comments h3 {
     text-transform: initial; }
   body main:not(.single) h1.post-header-title {
     text-transform: initial;
@@ -148,6 +152,136 @@ body {
       body article .intro p, body .intro p, body .post-header-excerpt {
         font-size: 18px;
         line-height: 26px; } }
+  body main > .center > article {
+    margin-bottom: 0; }
+    body main > .center > article > *:last-child {
+      padding-bottom: 50px;
+      margin-bottom: 0 !important; }
+  body .has-background {
+    padding-bottom: 50px; }
+  body .teaser-grid-container h3.article-title, body .teaser-grid-container h3.article-title a,
+  body .partner-grid-container h3.article-title,
+  body .partner-grid-container h3.article-title a,
+  body article.featured-post h3.article-title,
+  body article.featured-post h3.article-title a,
+  body .event-grid-container h3.article-title,
+  body .event-grid-container h3.article-title a,
+  body .archive h3.article-title,
+  body .archive h3.article-title a,
+  body .news-grid-container h3.article-title,
+  body .news-grid-container h3.article-title a,
+  body .tp-grid-container h3.article-title,
+  body .tp-grid-container h3.article-title a,
+  body h3.list-contacts-name,
+  body h3.list-contacts-name a {
+    text-transform: initial;
+    font-size: 18px;
+    line-height: 24px !important; }
+    @media (min-width: 480px) {
+      body .teaser-grid-container h3.article-title, body .teaser-grid-container h3.article-title a,
+      body .partner-grid-container h3.article-title,
+      body .partner-grid-container h3.article-title a,
+      body article.featured-post h3.article-title,
+      body article.featured-post h3.article-title a,
+      body .event-grid-container h3.article-title,
+      body .event-grid-container h3.article-title a,
+      body .archive h3.article-title,
+      body .archive h3.article-title a,
+      body .news-grid-container h3.article-title,
+      body .news-grid-container h3.article-title a,
+      body .tp-grid-container h3.article-title,
+      body .tp-grid-container h3.article-title a,
+      body h3.list-contacts-name,
+      body h3.list-contacts-name a {
+        font-size: 24px;
+        line-height: 30px !important; } }
+    @media (min-width: 768px) {
+      body .teaser-grid-container h3.article-title, body .teaser-grid-container h3.article-title a,
+      body .partner-grid-container h3.article-title,
+      body .partner-grid-container h3.article-title a,
+      body article.featured-post h3.article-title,
+      body article.featured-post h3.article-title a,
+      body .event-grid-container h3.article-title,
+      body .event-grid-container h3.article-title a,
+      body .archive h3.article-title,
+      body .archive h3.article-title a,
+      body .news-grid-container h3.article-title,
+      body .news-grid-container h3.article-title a,
+      body .tp-grid-container h3.article-title,
+      body .tp-grid-container h3.article-title a,
+      body h3.list-contacts-name,
+      body h3.list-contacts-name a {
+        font-size: 26px;
+        line-height: 34px !important; } }
+  body .tp-grid-container h3.article-title {
+    margin-bottom: 10px; }
+  body .tp-grid-container h4.project {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px; }
+  body .tp-grid-container span.excerpt {
+    font-size: inherit; }
+  body .event-grid-container h4.event-type, body .event-grid-container h4.event-type a, body .event-grid-container h4.event-type p,
+  body .archive article time,
+  body .archive article time a,
+  body .archive article time p,
+  body .event-grid-container time.event-time,
+  body .event-grid-container time.event-time a,
+  body .event-grid-container time.event-time p,
+  body .news-grid-container article time,
+  body .news-grid-container article time a,
+  body .news-grid-container article time p,
+  body .event-grid-container div.event.kurzinfo,
+  body .event-grid-container div.event.kurzinfo a,
+  body .event-grid-container div.event.kurzinfo p, body .event-grid-container div.event.place, body .event-grid-container div.event.place a, body .event-grid-container div.event.place p,
+  body p.list-contacts-position,
+  body p.list-contacts-position a,
+  body p.list-contacts-position p,
+  body .list-contacts-person-details,
+  body .list-contacts-person-details a,
+  body .list-contacts-person-details p {
+    line-height: 20px;
+    font-size: 14px !important; }
+    @media (min-width: 480px) {
+      body .event-grid-container h4.event-type, body .event-grid-container h4.event-type a, body .event-grid-container h4.event-type p,
+      body .archive article time,
+      body .archive article time a,
+      body .archive article time p,
+      body .event-grid-container time.event-time,
+      body .event-grid-container time.event-time a,
+      body .event-grid-container time.event-time p,
+      body .news-grid-container article time,
+      body .news-grid-container article time a,
+      body .news-grid-container article time p,
+      body .event-grid-container div.event.kurzinfo,
+      body .event-grid-container div.event.kurzinfo a,
+      body .event-grid-container div.event.kurzinfo p, body .event-grid-container div.event.place, body .event-grid-container div.event.place a, body .event-grid-container div.event.place p,
+      body p.list-contacts-position,
+      body p.list-contacts-position a,
+      body p.list-contacts-position p,
+      body .list-contacts-person-details,
+      body .list-contacts-person-details a,
+      body .list-contacts-person-details p {
+        font-size: 16px !important;
+        line-height: 22px; } }
+  body .archive article time,
+  body .news-grid-container article time,
+  body .event-grid-container h4.event-type {
+    margin-bottom: 5px !important; }
+  body .archive h3.article-title,
+  body .event-grid-container h3.article-title,
+  body .news-grid-container h3.article-title {
+    margin-top: 5px; }
+  body .pagination {
+    padding-bottom: 30px; }
+  body #footer {
+    margin-top: 0; }
+  body .event-grid-container article {
+    margin-bottom: 30px; }
+  body .blog-navigation-container, body .archive {
+    margin-bottom: 0; }
   body .intro {
     margin: 80px 0 50px 0; }
     @media (min-width: 768px) {
@@ -273,8 +407,6 @@ body {
         margin-right: 7px; }
   body.home {
     overflow-x: hidden; }
-    body.home #footer {
-      margin-top: 0; }
     body.home .flyntComponent[is="flynt-hero-section"] .hero-content {
       position: fixed; }
     @media only screen and (max-width: 1198px) {
