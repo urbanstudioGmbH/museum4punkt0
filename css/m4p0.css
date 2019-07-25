@@ -7,7 +7,7 @@
 	}
 }
 */
-*:not(.fa) {
+*:not(.fa):not(.fas) {
   font-family: 'larseit', sans-serif !important; }
 
 a {

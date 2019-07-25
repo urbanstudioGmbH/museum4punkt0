@@ -22,7 +22,7 @@ $bp-desktop: 1024px;
 }
 */
 
-*:not(.fa) {
+*:not(.fa):not(.fas) {
 	font-family: 'larseit', sans-serif !important; 
 }
 
