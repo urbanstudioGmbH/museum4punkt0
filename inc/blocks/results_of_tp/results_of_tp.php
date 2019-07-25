@@ -25,27 +25,29 @@ class block_us_results{
     }
 
     public function block_us_results_render($block, $content = '', $is_preview = false, $post_id){
-            $lang = "de";
+           /* $lang = "de";
             if(defined("ICL_LANGUAGE_CODE")) { 
                 $lang = ICL_LANGUAGE_CODE;
-            }
+            }*/
             
             // get approaches from current post
             $approaches = get_field('approaches', $post_id);
             //echo $post_id;
 
-            if ($lang === "de") {
+            /*if ($lang === "de") {
                 $fieldID = "5d0cdd8a69324";
             } else {
                 $fieldID = "5d0cdd6b69323";
             }
             $field_key = "field_".$fieldID;
-            $field = get_field_object($field_key);
+            $field = get_field_object($field_key);*/
             
-
+            global $approachtitle;
+            global $defaultresultterm;
+            
             if( $approaches ): ?>
                 <div class="cb_module cb_text">
-                    <h2 class="approach-title"><?php echo $field["value"]; ?></h2>
+                    <h2 class="approach-title"><?php echo $approachtitle;//$field["value"]; ?></h2>
                 </div>
                 <?php foreach( $approaches as $approach): // variable must be called $post (IMPORTANT) ?>
                     <?php //setup_postdata($post); 
@@ -78,6 +80,8 @@ class block_us_results{
 
                     $post_query = new WP_Query($args);
 
+                    
+
                     if($post_query->have_posts() ) { ?>
                     <div class="cb_module cb_items alignfull">
                         <div class="center">
@@ -87,83 +91,10 @@ class block_us_results{
                                         $post_query->the_post();
                                         setup_postdata($post); 
                                         $thumbnail = get_the_post_thumbnail_url(get_the_ID(),'thumbnail'); 
-
+                                        
+                                        include(get_template_directory() . '/template-parts/result-item.php');
                                         ?>
-                                <div class="item">
-                                    <a href="<?php the_permalink( get_the_ID() ); ?>" data-item="item-<?php echo get_the_ID(); ?>">
-                                        <article>
-                                            <header>
-                                                <div class="meta">
-                                                    <span class="insights">
-                                                        <?php 
-                                                            $insights = wp_get_post_terms(get_the_ID(), 'insights')[0]->name;
-                                                            if (empty($insights) ) {
-                                                                echo "Nicht eingeordnet";
-                                                            } else {
-                                                                echo $insights;
-                                                            }
-                                                        ?>
-
-                                                    </span>
-
-                                                    <span class="applicationfields">
-                                                        <?php 
-                                                            $applicationfields = wp_get_post_terms(get_the_ID(), 'applicationfields')[0]->name;
-                                                            if (empty($applicationfields) ) {
-                                                                echo "Nicht eingeordnet";
-                                                            } else {
-                                                                echo $applicationfields;
-                                                            }
-                                                        ?>
-                                                    </span>
-
-                                                    <strong class="resulttype" <?php if(wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name == "Nicht eingeordnet"):?>style="display:none"<?php endif; ?>>
-                                                        
-                                                        <?php 
-                                                            $resulttype = wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name;
-                                                            if (empty($resulttype) ) {
-                                                                echo "Nicht eingeordnet";
-                                                            } else {
-                                                                echo $resulttype;
-                                                            }
-                                                        ?>
-                                                    </strong> <?php 
-                                                    if(
-                                                        wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name !== "Nicht eingeordnet" && 
-                                                        wp_get_post_terms(get_the_ID(), 'technology')[0]->name !== "Nicht eingeordnet"
-                                                    ):?>&mdash;<?php endif; ?> 
-                                                    
-                                                    <strong class="technology" <?php if(wp_get_post_terms(get_the_ID(), 'technology')[0]->name == "Nicht eingeordnet"):?>style="display:none"<?php endif; ?>>
-                                                        
-                                                        <?php 
-                                                            $technology = wp_get_post_terms(get_the_ID(), 'technology')[0]->name;
-                                                            if (empty($technology) ) {
-                                                                echo "Nicht eingeordnet";
-                                                            } else {
-                                                                echo $technology;
-                                                            }
-                                                        ?>
-                                                    </strong>
-                                                </div>
-                                                <h1><?php the_title(); ?></h1>
-                                                
-                                            </header>
-                                            <figure style="background-image:url(<?=$thumbnail; ?>)" >
-                                                <?php echo get_the_post_thumbnail(get_the_ID()); ?>
-                                            </figure>
-                                            <footer class="communicationmethod" <?php if(wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name == "Nicht eingeordnet" || empty(wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name)):?>style="visibility: hidden"<?php endif; ?>>
-                                                <?php 
-                                                    $communicationmethod = wp_get_post_terms(get_the_ID(), 'communicationmethod')[0]->name;
-                                                    if (empty($communicationmethod) ) {
-                                                        echo "Nicht eingeordnet";
-                                                    } else {
-                                                        echo $communicationmethod;
-                                                    }
-                                                ?>
-                                            </footer>
-                                        </article>
-                                    </a>
-                                </div>
+                                    
                                     <?php
                                 } //wp_reset_postdata();
                                 ?>

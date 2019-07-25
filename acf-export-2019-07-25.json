@@ -756,6 +756,25 @@
                 ]
             },
             {
+                "key": "field_5d39756650ee8",
+                "label": "Ergebniskategorie (default \/ leer \/ nicht zugeordnet)",
+                "name": "default_result_category",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Nicht zugeordnet",
+                "placeholder": "Name der Default Ergebniskategorie",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
                 "key": "field_5caed949c3d44",
                 "label": "Datenschutz",
                 "name": "",

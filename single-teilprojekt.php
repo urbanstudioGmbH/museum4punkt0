@@ -4,6 +4,16 @@
  * @package urbanstudio
  */
 get_header();
+global $defaultresultterm;
+$defaultresultterm = get_field("default_result_category","options");
+
+$lang = "de";
+if(defined("ICL_LANGUAGE_CODE")) { 
+    $lang = ICL_LANGUAGE_CODE;
+}
+
+global $approachtitle;
+$approachtitle = get_field("cc_approaches_title_".$lang , "options");
 ?>
 <?php /*
 
