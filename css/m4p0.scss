@@ -171,7 +171,14 @@ body {
 	#comments h3 {
 		text-transform: initial;
 
+
 	}
+	h1.post-header-title {
+		-webkit-hyphens: manual;
+		-ms-hyphens: manual;
+		hyphens: manual;
+	}
+	
 
 	main:not(.single) h1.post-header-title {
 		text-transform: initial;

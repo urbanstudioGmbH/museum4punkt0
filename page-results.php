@@ -41,7 +41,7 @@ $defaultresultterm = get_field("default_result_category","options");
 		
 		<?php 
 		// get taxonomies for custom post type 'result' as objects
-		$taxonomies = get_object_taxonomies( 'result', 'objects' );
+		$taxonomies = get_object_taxonomies( 'ergebnis', 'objects' );
 		// sort taxonomies by plugin function of "Custom Taxonomy Order" WP Plugin
 		$taxonomies = customtaxorder_sort_taxonomies($taxonomies);
 		?>
@@ -119,7 +119,7 @@ $defaultresultterm = get_field("default_result_category","options");
 					<?php 
 
 					$args = array(
-					    'post_type'=> 'result',
+					    'post_type'=> 'ergebnis',
 					    'posts_per_page' => -1,
 					    'nopaging' => true,					    
 					    'order'    => 'ASC'

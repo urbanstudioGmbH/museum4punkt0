@@ -67,7 +67,7 @@ class block_us_results{
                     <?php 
 
                     $args = array(
-                        'post_type' => 'result',
+                        'post_type' => 'ergebnis',
                         'meta_query'     => array(
                             array(
                                 'key'     => 'approach',

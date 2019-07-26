@@ -146,7 +146,7 @@ $thisID = get_the_ID();
 				$projectID = $project[0]->ID;
 				// echo "ID is " . $projectID;
 				$args = array(
-			        'post_type' => 'result',
+			        'post_type' => 'ergebnis',
 			        'numberposts' => -1,
 			        'meta_query'     => array(
 						array(

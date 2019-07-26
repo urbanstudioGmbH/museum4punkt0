@@ -125,6 +125,10 @@ body {
   body .blog-teilprojekt-container .tp-content h4,
   body #comments h3 {
     text-transform: initial; }
+  body h1.post-header-title {
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual; }
   body main:not(.single) h1.post-header-title {
     text-transform: initial;
     font-size: 36px;

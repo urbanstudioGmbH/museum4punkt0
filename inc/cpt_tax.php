@@ -252,7 +252,7 @@ add_action( 'acf/init', 'cptui_register_my_taxes' );
 
 // Ergebnisse
 
-function cptui_register_my_cpts_result() {
+function cptui_register_my_cpts_ergebnis() {
 
     /**
      * Post Type: Ergebnisse.
@@ -281,7 +281,7 @@ function cptui_register_my_cpts_result() {
         "capability_type" => "post",
         "map_meta_cap" => true,
         "hierarchical" => false,
-        "rewrite" => array( "slug" => "result", "with_front" => true ),
+        "rewrite" => array( "slug" => "ergebnis", "with_front" => true ),
         "query_var" => true,
         "menu_position" => 16,
         "menu_icon" => "dashicons-format-aside",
@@ -289,10 +289,11 @@ function cptui_register_my_cpts_result() {
         "taxonomies" => array( "communicationmethod", "technology", "resulttype", "insights", "applicationfields" ),
     );
 
-    register_post_type( "result", $args );
+    register_post_type( "ergebnis", $args );
 }
 
-add_action( 'init', 'cptui_register_my_cpts_result' );
+add_action( 'init', 'cptui_register_my_cpts_ergebnis' );
+
 
 // cpt approaches
 function cptui_register_my_cpts_approach() {
@@ -339,16 +340,16 @@ add_action( 'init', 'cptui_register_my_cpts_approach' );
 function cptui_register_my_taxes_communicationmethod() {
 
     /**
-     * Taxonomy: Wie wird vermittelt?.
+     * Taxonomy: Vermittlungsansatz.
      */
 
     $labels = array(
-        "name" => __( "Wie wird vermittelt?", "custom-post-type-ui" ),
+        "name" => __( "Vermittlungsansatz", "custom-post-type-ui" ),
         "singular_name" => __( "Vermittlungsmethode", "custom-post-type-ui" ),
     );
 
     $args = array(
-        "label" => __( "Wie wird vermittelt?", "custom-post-type-ui" ),
+        "label" => __( "Vermittlungsansatz", "custom-post-type-ui" ),
         "labels" => $labels,
         "public" => true,
         "publicly_queryable" => true,
@@ -364,9 +365,10 @@ function cptui_register_my_taxes_communicationmethod() {
         "rest_controller_class" => "WP_REST_Terms_Controller",
         "show_in_quick_edit" => false,
         );
-    register_taxonomy( "communicationmethod", array( "result" ), $args );
+    register_taxonomy( "communicationmethod", array( "ergebnis" ), $args );
 }
 add_action( 'init', 'cptui_register_my_taxes_communicationmethod' );
+
 
 
 function cptui_register_my_taxes_technology() {
@@ -397,9 +399,10 @@ function cptui_register_my_taxes_technology() {
         "rest_controller_class" => "WP_REST_Terms_Controller",
         "show_in_quick_edit" => false,
         );
-    register_taxonomy( "technology", array( "result" ), $args );
+    register_taxonomy( "technology", array( "ergebnis" ), $args );
 }
 add_action( 'init', 'cptui_register_my_taxes_technology' );
+
 
 
 function cptui_register_my_taxes_resulttype() {
@@ -430,9 +433,10 @@ function cptui_register_my_taxes_resulttype() {
         "rest_controller_class" => "WP_REST_Terms_Controller",
         "show_in_quick_edit" => false,
         );
-    register_taxonomy( "resulttype", array( "result" ), $args );
+    register_taxonomy( "resulttype", array( "ergebnis" ), $args );
 }
 add_action( 'init', 'cptui_register_my_taxes_resulttype' );
+
 
 function cptui_register_my_taxes_insights() {
 
@@ -462,9 +466,10 @@ function cptui_register_my_taxes_insights() {
         "rest_controller_class" => "WP_REST_Terms_Controller",
         "show_in_quick_edit" => false,
         );
-    register_taxonomy( "insights", array( "result" ), $args );
+    register_taxonomy( "insights", array( "ergebnis" ), $args );
 }
 add_action( 'init', 'cptui_register_my_taxes_insights' );
+
 
 function cptui_register_my_taxes_applicationfields() {
 
@@ -494,6 +499,7 @@ function cptui_register_my_taxes_applicationfields() {
         "rest_controller_class" => "WP_REST_Terms_Controller",
         "show_in_quick_edit" => false,
         );
-    register_taxonomy( "applicationfields", array( "result" ), $args );
+    register_taxonomy( "applicationfields", array( "ergebnis" ), $args );
 }
 add_action( 'init', 'cptui_register_my_taxes_applicationfields' );
+
