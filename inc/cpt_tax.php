@@ -337,11 +337,11 @@ function cptui_register_my_cpts_approach() {
 add_action( 'init', 'cptui_register_my_cpts_approach' );
 
 // Result taxonomies
+/*
 function cptui_register_my_taxes_communicationmethod() {
 
-    /**
-     * Taxonomy: Vermittlungsansatz.
-     */
+    // Taxonomy: Vermittlungsansatz.
+
 
     $labels = array(
         "name" => __( "Vermittlungsansatz", "custom-post-type-ui" ),
@@ -373,9 +373,8 @@ add_action( 'init', 'cptui_register_my_taxes_communicationmethod' );
 
 function cptui_register_my_taxes_technology() {
 
-    /**
-     * Taxonomy: Technologie.
-     */
+    // Taxonomy: Technologie.
+    
 
     $labels = array(
         "name" => __( "Technologie", "custom-post-type-ui" ),
@@ -407,9 +406,7 @@ add_action( 'init', 'cptui_register_my_taxes_technology' );
 
 function cptui_register_my_taxes_resulttype() {
 
-    /**
-     * Taxonomy: Ergebnistypen.
-     */
+    // Taxonomy: Ergebnistypen.
 
     $labels = array(
         "name" => __( "Ergebnistypen", "custom-post-type-ui" ),
@@ -440,9 +437,8 @@ add_action( 'init', 'cptui_register_my_taxes_resulttype' );
 
 function cptui_register_my_taxes_insights() {
 
-    /**
-     * Taxonomy: Erkenntnisse zu.
-     */
+    //Taxonomy: Erkenntnisse zu.
+
 
     $labels = array(
         "name" => __( "Erkenntnisse zu", "custom-post-type-ui" ),
@@ -473,9 +469,8 @@ add_action( 'init', 'cptui_register_my_taxes_insights' );
 
 function cptui_register_my_taxes_applicationfields() {
 
-    /**
-     * Taxonomy: Anwendungsbereiche.
-     */
+    //Taxonomy: Anwendungsbereiche.
+
 
     $labels = array(
         "name" => __( "Anwendungsbereiche", "custom-post-type-ui" ),
@@ -503,3 +498,4 @@ function cptui_register_my_taxes_applicationfields() {
 }
 add_action( 'init', 'cptui_register_my_taxes_applicationfields' );
 
+*/

@@ -22,7 +22,7 @@ $bp-desktop: 1024px;
 }
 */
 
-*:not(.fa):not(.fas) {
+*:not(.fa):not(.fas):not(.far):not(.fab) {
 	font-family: 'larseit', sans-serif !important; 
 }
 
@@ -464,7 +464,7 @@ body {
 
 	&.home {
 		overflow-x: hidden;
-		
+
 		.flyntComponent[is="flynt-hero-section"] .hero-content {
 			position: fixed;
 		}
@@ -482,6 +482,9 @@ body {
 			position: relative;
 			z-index: 1;
 			article {
+				> h2:first-child {
+					padding-top:100px;
+				}
 				margin-bottom:0;
 				/*width: auto;*/
 				/*max-width:initial;*/
@@ -1985,7 +1988,7 @@ body {
 			.ui-accordion-header {
 				margin:0;
 				position: relative;
-				padding: 25px 0 25px 40px;
+				padding: 25px 0 25px 30px;
 				border-top: 1px solid black;
 				cursor: pointer;
 				&:first-child {
@@ -2004,10 +2007,16 @@ body {
 					position: absolute;
 					left:3px;
 					top:28px;
+					@media (min-width: $bp-tablet) {
+						top:34px;
+					}
 				}
 
 				&.ui-state-active:before {
 					top:35px;
+					@media (min-width: $bp-tablet) {
+						top:40px;
+					}
 					-webkit-transform: rotate(225deg);
 					        -ms-transform: rotate(225deg);
 					    transform: rotate(225deg);
@@ -2017,13 +2026,13 @@ body {
 					margin-left: -40px;
 					width: -webkit-calc(100% + 40px);
 					width: calc(100% + 40px);
-					
+					padding-left:40px;
 					
 				}
 			}
 			.ui-accordion-content {
 				margin:0;
-				padding: 0 0 25px 40px;
+				padding: 0 0 25px 30px;
 				> *:first-child {
 					margin-top:0;
 					padding-top: 0;

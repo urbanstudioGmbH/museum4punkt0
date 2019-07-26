@@ -27,13 +27,13 @@
 
 <channel>
 	<title>museum4punkt0</title>
-	<link>https://www.m4p0.eatch.com</link>
+	<link>https://www.museum4punkt0.de</link>
 	<description>Digitale Strategien für das Museum der Zukunft</description>
 	<pubDate>Fri, 26 Jul 2019 12:38:33 +0000</pubDate>
 	<language>de-DE</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://www.m4p0.eatch.com</wp:base_site_url>
-	<wp:base_blog_url>https://www.m4p0.eatch.com</wp:base_blog_url>
+	<wp:base_site_url>https://www.museum4punkt0.de</wp:base_site_url>
+	<wp:base_blog_url>https://www.museum4punkt0.de</wp:base_blog_url>
 
 		<wp:author><wp:author_id>3</wp:author_id><wp:author_login><![CDATA[museum4punkt0]]></wp:author_login><wp:author_email><![CDATA[s.faulstich@hv.spk-berlin.de]]></wp:author_email><wp:author_display_name><![CDATA[museum4punkt0]]></wp:author_display_name><wp:author_first_name><![CDATA[Silvia]]></wp:author_first_name><wp:author_last_name><![CDATA[Faulstich]]></wp:author_last_name></wp:author>
 
@@ -41,19 +41,19 @@
 	
 
 <image>
-	<url>https://www.m4p0.eatch.com/wp-content/uploads/2019/04/apple-touch-icon-180x180-49x49.png</url>
+	<url>https://www.museum4punkt0.de/wp-content/uploads/2019/04/apple-touch-icon-180x180-49x49.png</url>
 	<title>museum4punkt0</title>
-	<link>https://www.m4p0.eatch.com</link>
+	<link>https://www.museum4punkt0.de</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 
 		<item>
 		<title>M1-Ergebnisse der Besucher- und Nutzerforschung</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/ergebnisse-besucher-und-nutzerforschung/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/ergebnisse-besucher-und-nutzerforschung/</link>
 		<pubDate>Thu, 13 Jun 2019 12:53:19 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=1905</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=1905</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum. Unser Ziel ist es, Menschen auf das Museum als Erkenntnis- und Erlebnisraum neugierig zu machen, die Auseinandersetzung mit musealen Themen zu fördern sowie Möglichkeiten für aktive Teilhabe zu schaffen.</p>
@@ -130,11 +130,11 @@
 <!-- wp:acf/block-us-faq {"id":"block_5d02755710ca7","name":"acf/block-us-faq","data":{"field_5c1f38ca17034":"1","field_5c1f38f417035":{"row-0":{"field_5c1f391217036":"sDASDASD","field_5c1f392d17037":"ASDASDASD ASDAS DASD ASDAS DAycsadas dasd asdas dasd asd asdas"},"row-1":{"field_5c1f391217036":"asdasdas dasd asd","field_5c1f392d17037":"asd asd asdasd asdasd asd as"},"row-2":{"field_5c1f391217036":"asdasd asdas","field_5c1f392d17037":"as dasd asdasd asdasd a"}}},"align":"","mode":"edit"} /-->
 
 <!-- wp:image {"id":1689} -->
-<figure class="wp-block-image"><img src="https://www.m4p0.eatch.com/wp-content/uploads/2019/05/19-5_Z_Bewegungsbücher_MeggendorferSchatten_SBB-PK_lb.jpg" alt="Rückseitenansicht einer Buchseite mit Hebelmechanik" class="wp-image-1689"/><figcaption>Dem Angler zugrunde liegende Papiermechanik. Aus: Meggendorfer’s bewegliche Schattenbilder, 1886. SBB-PK</figcaption></figure>
+<figure class="wp-block-image"><img src="https://www.museum4punkt0.de/wp-content/uploads/2019/05/19-5_Z_Bewegungsbücher_MeggendorferSchatten_SBB-PK_lb.jpg" alt="Rückseitenansicht einer Buchseite mit Hebelmechanik" class="wp-image-1689"/><figcaption>Dem Angler zugrunde liegende Papiermechanik. Aus: Meggendorfer’s bewegliche Schattenbilder, 1886. SBB-PK</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:gallery {"ids":[1845,1619,1855]} -->
-<ul class="wp-block-gallery columns-3 is-cropped"><li class="blocks-gallery-item"><figure><img src="https://www.m4p0.eatch.com/wp-content/uploads/2019/04/SMNG_laubstreu_Kugelspringer_c_hapto_lb.jpg" alt="Lebensraum Laubstreu in VR" data-id="1845" data-link="https://www.m4p0.eatch.com/teilprojekt/forschung-in-museen-erklaeren-verstehen-mitmachen/smng_laubstreu_kugelspringer_c_hapto_lb/" class="wp-image-1845"/><figcaption>Abgeschlossen - Die Laubstreu des Buchenwaldes: Zwischen den herabgefallenen Laubblättern der Buchen auf dem Waldboden entdeckt der Besucher typische Bewohner dieses Lebensraums und kann mit einigen sogar interagieren. © .hapto</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="https://www.m4p0.eatch.com/wp-content/uploads/2019/04/AR-Prototyp_neu_c_SMB_ds50-736x414-c-default.jpg" alt="Menschen testen den AR-Prototyp" data-id="1619" data-link="https://www.m4p0.eatch.com/teilprojekt/visitor-journeys-neu-gedacht-digitale-erweiterung-des-museumsbesuchs/ar-prototyp_neu_c_smb_ds50-736x414-c-default/" class="wp-image-1619"/><figcaption>© Staatliche Museen zu Berlin</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="https://www.m4p0.eatch.com/wp-content/uploads/2019/04/SMNG_BodentierApp_Zielkreuz-c-Peter-Decker_ds50.jpg" alt="Bodentier-App Bodentier4" data-id="1855" data-link="https://www.m4p0.eatch.com/teilprojekt/forschung-in-museen-erklaeren-verstehen-mitmachen/smng_bodentierapp_zielkreuz-c-peter-decker_ds50/" class="wp-image-1855"/><figcaption>Foto: Peter Decker / Senckenberg</figcaption></figure></li></ul>
+<ul class="wp-block-gallery columns-3 is-cropped"><li class="blocks-gallery-item"><figure><img src="https://www.museum4punkt0.de/wp-content/uploads/2019/04/SMNG_laubstreu_Kugelspringer_c_hapto_lb.jpg" alt="Lebensraum Laubstreu in VR" data-id="1845" data-link="https://www.museum4punkt0.de/teilprojekt/forschung-in-museen-erklaeren-verstehen-mitmachen/smng_laubstreu_kugelspringer_c_hapto_lb/" class="wp-image-1845"/><figcaption>Abgeschlossen - Die Laubstreu des Buchenwaldes: Zwischen den herabgefallenen Laubblättern der Buchen auf dem Waldboden entdeckt der Besucher typische Bewohner dieses Lebensraums und kann mit einigen sogar interagieren. © .hapto</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="https://www.museum4punkt0.de/wp-content/uploads/2019/04/AR-Prototyp_neu_c_SMB_ds50-736x414-c-default.jpg" alt="Menschen testen den AR-Prototyp" data-id="1619" data-link="https://www.museum4punkt0.de/teilprojekt/visitor-journeys-neu-gedacht-digitale-erweiterung-des-museumsbesuchs/ar-prototyp_neu_c_smb_ds50-736x414-c-default/" class="wp-image-1619"/><figcaption>© Staatliche Museen zu Berlin</figcaption></figure></li><li class="blocks-gallery-item"><figure><img src="https://www.museum4punkt0.de/wp-content/uploads/2019/04/SMNG_BodentierApp_Zielkreuz-c-Peter-Decker_ds50.jpg" alt="Bodentier-App Bodentier4" data-id="1855" data-link="https://www.museum4punkt0.de/teilprojekt/forschung-in-museen-erklaeren-verstehen-mitmachen/smng_bodentierapp_zielkreuz-c-peter-decker_ds50/" class="wp-image-1855"/><figcaption>Foto: Peter Decker / Senckenberg</figcaption></figure></li></ul>
 <!-- /wp:gallery -->
 
 <!-- wp:paragraph -->
@@ -216,7 +216,7 @@
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[ergebnisse-besucher-und-nutzerforschung]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -304,10 +304,10 @@
 							</item>
 					<item>
 		<title>M1-Digitales Leit- und Informationssystem</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/zweites-ergebnis/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/zweites-ergebnis/</link>
 		<pubDate>Mon, 17 Jun 2019 10:55:30 +0000</pubDate>
 		<dc:creator><![CDATA[museum4punkt0]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=1946</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=1946</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -317,7 +317,7 @@
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[zweites-ergebnis]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -382,10 +382,10 @@
 							</item>
 					<item>
 		<title>M1-Rezeptionsforschung Mönch am Meer</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/rezeptionsforschung-virtual-reality/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/rezeptionsforschung-virtual-reality/</link>
 		<pubDate>Fri, 28 Jun 2019 10:13:15 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2020</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2020</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -397,7 +397,7 @@
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[rezeptionsforschung-virtual-reality]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -476,10 +476,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - VR-Setting für BetreuerInnen (Mönch am Meer)</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/rezeptionsforschung-moench-am-meer/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/rezeptionsforschung-moench-am-meer/</link>
 		<pubDate>Fri, 28 Jun 2019 10:14:37 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2021</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2021</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -491,7 +491,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[rezeptionsforschung-moench-am-meer]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -564,10 +564,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - Anforderungen an die Infrastruktur in Museen</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/vr-setting-fuer-betreuerinnen-moench-am-meer/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/vr-setting-fuer-betreuerinnen-moench-am-meer/</link>
 		<pubDate>Fri, 28 Jun 2019 10:15:54 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2022</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2022</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -579,7 +579,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[vr-setting-fuer-betreuerinnen-moench-am-meer]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -650,10 +650,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M2 - &quot;Dialog Migration&quot; - Neue Wege in der Besucherkommunikation online und in-house</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/dialog-migration-neue-wege-in-der-besucherkommunikation-online-und-in-house/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/dialog-migration-neue-wege-in-der-besucherkommunikation-online-und-in-house/</link>
 		<pubDate>Fri, 28 Jun 2019 11:47:34 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2029</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2029</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -686,7 +686,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[dialog-migration-neue-wege-in-der-besucherkommunikation-online-und-in-house]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -757,10 +757,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M2 - Einrichtung eines Online-Archivs mit biografischem Material und User Generated Content</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/einrichtung-eines-online-archivs-mit-biografischem-material-und-user-generated-content/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/einrichtung-eines-online-archivs-mit-biografischem-material-und-user-generated-content/</link>
 		<pubDate>Fri, 28 Jun 2019 11:48:44 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2030</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2030</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -793,7 +793,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[einrichtung-eines-online-archivs-mit-biografischem-material-und-user-generated-content]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -864,10 +864,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M2 - Erstellung von Oral History Interviews</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/erstellung-von-oral-history-interviews/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/erstellung-von-oral-history-interviews/</link>
 		<pubDate>Fri, 28 Jun 2019 11:50:03 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2031</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2031</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -900,7 +900,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[erstellung-von-oral-history-interviews]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -963,10 +963,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - Toolkit zur Erstellung progessiver Web-Apps zur Darstellung und Annotierung von 3D-Objekten im Browser</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-toolkit-zur-erstellung-progessiver-web-apps-zur-darstellung-und-annotierung-von-3d-objekten-im-browser/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-toolkit-zur-erstellung-progessiver-web-apps-zur-darstellung-und-annotierung-von-3d-objekten-im-browser/</link>
 		<pubDate>Fri, 12 Jul 2019 15:00:40 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2044</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2044</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -999,7 +999,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m1-toolkit-zur-erstellung-progessiver-web-apps-zur-darstellung-und-annotierung-von-3d-objekten-im-browser]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1071,10 +1071,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - Toolbox zur qualitativen Besucherforschung im Museum zu Fragen der Visitor Journey</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-toolbox-zur-qualitativen-besucherforschung-im-museum-zu-fragen-der-visitor-journey/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-toolbox-zur-qualitativen-besucherforschung-im-museum-zu-fragen-der-visitor-journey/</link>
 		<pubDate>Fri, 12 Jul 2019 15:20:08 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2046</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2046</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1107,7 +1107,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m1-toolbox-zur-qualitativen-besucherforschung-im-museum-zu-fragen-der-visitor-journey]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1178,10 +1178,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - Spekulative Zukunftsvisionen für Museen: Anwendungskonzepte</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-spekulative-zukunftsvisionen-fuer-museen-anwendungskonzepte/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-spekulative-zukunftsvisionen-fuer-museen-anwendungskonzepte/</link>
 		<pubDate>Fri, 12 Jul 2019 15:41:58 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2047</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2047</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1214,7 +1214,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m1-spekulative-zukunftsvisionen-fuer-museen-anwendungskonzepte]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1285,10 +1285,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - Nutzung von VR für ein Spiel für Kinder</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-nutzung-von-vr-fuer-ein-spiel-fuer-kinder/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-nutzung-von-vr-fuer-ein-spiel-fuer-kinder/</link>
 		<pubDate>Fri, 12 Jul 2019 15:56:20 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2049</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2049</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1321,7 +1321,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m1-nutzung-von-vr-fuer-ein-spiel-fuer-kinder]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1394,10 +1394,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M2 - Das Ausstellungsexperiment &quot;KRIEGsgefangen. OHNMACHT. SEHNSUCHT. 1914-1921&quot;</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m2-das-ausstellungsexperiment-kriegsgefangen-ohnmacht-sehnsucht-1914-1921/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m2-das-ausstellungsexperiment-kriegsgefangen-ohnmacht-sehnsucht-1914-1921/</link>
 		<pubDate>Fri, 12 Jul 2019 16:23:35 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2053</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2053</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1430,7 +1430,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m2-das-ausstellungsexperiment-kriegsgefangen-ohnmacht-sehnsucht-1914-1921]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1502,10 +1502,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M2 - Aufbau einer Sammlungsdatenbank</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m2-aufbau-einer-sammlungsdatenbank/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m2-aufbau-einer-sammlungsdatenbank/</link>
 		<pubDate>Fri, 12 Jul 2019 16:27:32 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2054</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2054</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1538,7 +1538,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m2-aufbau-einer-sammlungsdatenbank]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1601,10 +1601,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M3 - Betrieb der VR-Sequenzen des VRlab</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m3-betrieb-der-vr-sequenzen-des-vrlab/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m3-betrieb-der-vr-sequenzen-des-vrlab/</link>
 		<pubDate>Fri, 12 Jul 2019 16:31:47 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2055</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2055</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1616,7 +1616,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m3-betrieb-der-vr-sequenzen-des-vrlab]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1688,10 +1688,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M3 - Flowchart zum Einsatz von VR/AR im Museum</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m3-flowchart-zum-einsatz-von-vr-ar-im-museum/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m3-flowchart-zum-einsatz-von-vr-ar-im-museum/</link>
 		<pubDate>Fri, 12 Jul 2019 16:37:31 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2057</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2057</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1703,7 +1703,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m3-flowchart-zum-einsatz-von-vr-ar-im-museum]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -1774,10 +1774,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>Z - Checkliste Betriebskonzept</title>
-		<link>https://www.m4p0.eatch.com/?post_type=ergebnis&#038;p=2095</link>
+		<link>https://www.museum4punkt0.de/?post_type=ergebnis&#038;p=2095</link>
 		<pubDate>Thu, 01 Jan 1970 01:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2095</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2095</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -1852,10 +1852,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>V - Bewegungsbücher Kinderworkshop Material</title>
-		<link>https://www.m4p0.eatch.com/?post_type=ergebnis&#038;p=2096</link>
+		<link>https://www.museum4punkt0.de/?post_type=ergebnis&#038;p=2096</link>
 		<pubDate>Thu, 01 Jan 1970 01:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2096</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2096</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -1928,10 +1928,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - Progressive Web-App &#039;xplore Highlights&#039;</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-progressive-web-app-xplore-highlights/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-progressive-web-app-xplore-highlights/</link>
 		<pubDate>Tue, 23 Jul 2019 15:26:16 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2109</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2109</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2006,10 +2006,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M1 - Prototyp Messenger Bot</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-prototyp-messenger-bot/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-prototyp-messenger-bot/</link>
 		<pubDate>Tue, 23 Jul 2019 15:27:55 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2110</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2110</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2025,7 +2025,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="communicationmethod" nicename="anderer_ansatz"><![CDATA[anderer Ansatz]]></category>
+										<category domain="communicationmethod" nicename="anderer-ansatz"><![CDATA[anderer Ansatz]]></category>
 		<category domain="technology" nicename="chatbot"><![CDATA[Chatbot]]></category>
 		<category domain="resulttype" nicename="digitale-anwendung"><![CDATA[digitale Anwendung]]></category>
 		<category domain="applicationfields" nicename="online-ausser-haus"><![CDATA[online &amp; außer Haus]]></category>
@@ -2084,10 +2084,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M3 - Auswertung der Beobachtungs- und Umfragedaten im VRlab</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m3-auswertung-der-beobachtungs-und-umfragedaten-im-vrlab/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m3-auswertung-der-beobachtungs-und-umfragedaten-im-vrlab/</link>
 		<pubDate>Fri, 12 Jul 2019 16:40:22 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2059</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2059</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -2099,7 +2099,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m3-auswertung-der-beobachtungs-und-umfragedaten-im-vrlab]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2163,10 +2163,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M3 - Methoden der 3D-Digitalisierung und Nutzung von 3D-Digitalisaten im Museum</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m3-methoden-der-3d-digitalisierung-und-nutzung-von-3d-digitalisaten-im-museum/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m3-methoden-der-3d-digitalisierung-und-nutzung-von-3d-digitalisaten-im-museum/</link>
 		<pubDate>Fri, 12 Jul 2019 16:42:32 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2061</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2061</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -2178,7 +2178,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m3-methoden-der-3d-digitalisierung-und-nutzung-von-3d-digitalisaten-im-museum]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2242,10 +2242,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M3 - Masterarbeit (TU) zu 3D-Scan und KI-basierter Modellierung</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m3-masterarbeit-tu-zu-3d-scan-und-ki-basierter-modellierung/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m3-masterarbeit-tu-zu-3d-scan-und-ki-basierter-modellierung/</link>
 		<pubDate>Fri, 12 Jul 2019 16:44:33 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2063</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2063</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -2257,7 +2257,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m3-masterarbeit-tu-zu-3d-scan-und-ki-basierter-modellierung]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2321,10 +2321,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M3 - Bachelorarbeit (TU) AR im Diorama</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m3-bachelorarbeit-tu-ar-im-diorama/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m3-bachelorarbeit-tu-ar-im-diorama/</link>
 		<pubDate>Fri, 12 Jul 2019 16:49:41 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2064</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2064</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -2336,7 +2336,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m3-bachelorarbeit-tu-ar-im-diorama]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2400,10 +2400,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Initialisierungsstation (spielerische Nutzererfassung, UX Tests verschiedener Eingabeinterfaces)</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-initialisierungsstation-spielerische-nutzererfassung-ux-tests-verschiedener-eingabeinterfaces/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-initialisierungsstation-spielerische-nutzererfassung-ux-tests-verschiedener-eingabeinterfaces/</link>
 		<pubDate>Fri, 12 Jul 2019 16:53:06 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2066</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2066</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -2413,7 +2413,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-initialisierungsstation-spielerische-nutzererfassung-ux-tests-verschiedener-eingabeinterfaces]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2477,10 +2477,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Serveranwendung zur individuellen Besucheridentifikation</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-serveranwendung-zur-individuellen-besucheridentifikation/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-serveranwendung-zur-individuellen-besucheridentifikation/</link>
 		<pubDate>Fri, 12 Jul 2019 17:00:38 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2067</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2067</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -2492,7 +2492,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-serveranwendung-zur-individuellen-besucheridentifikation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2556,10 +2556,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Erfahrungen mit Augmented Reality u. Microsoft HoloLens</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-erfahrungen-mit-augmented-reality-u-microsoft-hololens/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-erfahrungen-mit-augmented-reality-u-microsoft-hololens/</link>
 		<pubDate>Fri, 12 Jul 2019 17:03:45 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2069</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2069</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -2569,7 +2569,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-erfahrungen-mit-augmented-reality-u-microsoft-hololens]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2633,10 +2633,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - ALEMBIC/fbx (? Tbd)</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-alembic-fbx-tbd/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-alembic-fbx-tbd/</link>
 		<pubDate>Fri, 12 Jul 2019 17:05:20 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2070</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2070</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -2646,7 +2646,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-alembic-fbx-tbd]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2710,10 +2710,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Erfahrungsbericht Photogrammetrie</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-erfahrungsbericht-photogrammetrie/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-erfahrungsbericht-photogrammetrie/</link>
 		<pubDate>Fri, 12 Jul 2019 17:07:03 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2071</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2071</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -2723,7 +2723,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-erfahrungsbericht-photogrammetrie]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2787,10 +2787,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Erfahrungsbericht alternative Eingabeinterfaces</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-erfahrungsbericht-alternative-eingabeinterfaces/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-erfahrungsbericht-alternative-eingabeinterfaces/</link>
 		<pubDate>Fri, 12 Jul 2019 17:08:38 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2072</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2072</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -2800,7 +2800,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-erfahrungsbericht-alternative-eingabeinterfaces]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2864,10 +2864,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Verarbeitung von Bewegungsdaten, Interaktionsverhalten und anonymisiertes Tracking</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-verarbeitung-von-bewegungsdaten-interaktionsverhalten-und-anonymisiertes-tracking/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-verarbeitung-von-bewegungsdaten-interaktionsverhalten-und-anonymisiertes-tracking/</link>
 		<pubDate>Fri, 12 Jul 2019 17:10:39 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2073</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2073</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -2877,7 +2877,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-verarbeitung-von-bewegungsdaten-interaktionsverhalten-und-anonymisiertes-tracking]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -2941,10 +2941,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Herstellung von 360-Grad-Filmen zur Fastnacht</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-herstellung-von-360-grad-filmen-zur-fastnacht/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-herstellung-von-360-grad-filmen-zur-fastnacht/</link>
 		<pubDate>Fri, 12 Jul 2019 17:19:27 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2074</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2074</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -2954,7 +2954,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-herstellung-von-360-grad-filmen-zur-fastnacht]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3018,10 +3018,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - VR-Stationen im Museum (Ausstellungsetting)</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-vr-stationen-im-museum-ausstellungsetting/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-vr-stationen-im-museum-ausstellungsetting/</link>
 		<pubDate>Fri, 12 Jul 2019 17:21:41 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2075</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2075</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -3031,7 +3031,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-vr-stationen-im-museum-ausstellungsetting]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3095,10 +3095,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Kuppelaufbau</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-kuppelaufbau/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-kuppelaufbau/</link>
 		<pubDate>Fri, 12 Jul 2019 17:23:49 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2076</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2076</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -3108,7 +3108,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-kuppelaufbau]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3172,10 +3172,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Kuppelaufbau und Anwendung</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-kuppelaufbau-und-anwendung/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-kuppelaufbau-und-anwendung/</link>
 		<pubDate>Fri, 12 Jul 2019 17:26:45 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2077</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2077</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -3187,7 +3187,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-kuppelaufbau-und-anwendung]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3252,10 +3252,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M4 - Betriebskonzept zur Website virtuelles Fastnachtsmuseum</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-betriebskonzept-zur-website-virtuelles-fastnachtsmuseum/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-betriebskonzept-zur-website-virtuelles-fastnachtsmuseum/</link>
 		<pubDate>Fri, 12 Jul 2019 17:28:50 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2078</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2078</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -3267,7 +3267,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-betriebskonzept-zur-website-virtuelles-fastnachtsmuseum]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3332,10 +3332,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - Betriebskonzept Abenteuer Bodenleben</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m4-betriebskonzept-abenteuer-bodenleben/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m4-betriebskonzept-abenteuer-bodenleben/</link>
 		<pubDate>Fri, 12 Jul 2019 17:31:07 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2079</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2079</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -3345,7 +3345,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m4-betriebskonzept-abenteuer-bodenleben]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3409,10 +3409,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - Auswertung Besucherforschung zu Abenteuer Bodenleben</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-auswertung-besucherforschung-zu-abenteuer-bodenleben/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-auswertung-besucherforschung-zu-abenteuer-bodenleben/</link>
 		<pubDate>Fri, 12 Jul 2019 17:32:56 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2080</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2080</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -3422,7 +3422,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-auswertung-besucherforschung-zu-abenteuer-bodenleben]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3486,10 +3486,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - VR-basierte Wissensvermittlung in der internationalen Wanderausstellung &quot;Die dünne Haut der Erde - Unsere Böden&quot;</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-vr-basierte-wissensvermittlung-in-der-internationalen-wanderausstellung-die-duenne-haut-der-erde-unsere-boeden/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-vr-basierte-wissensvermittlung-in-der-internationalen-wanderausstellung-die-duenne-haut-der-erde-unsere-boeden/</link>
 		<pubDate>Fri, 12 Jul 2019 17:35:03 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2081</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2081</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -3499,7 +3499,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-vr-basierte-wissensvermittlung-in-der-internationalen-wanderausstellung-die-duenne-haut-der-erde-unsere-boeden]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3564,10 +3564,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - VR-Konzeption und Entwicklung als iterativer Prozess</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-vr-konzeption-und-entwicklung-als-iterativer-prozess/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-vr-konzeption-und-entwicklung-als-iterativer-prozess/</link>
 		<pubDate>Fri, 12 Jul 2019 17:37:34 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2082</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2082</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -3579,7 +3579,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-vr-konzeption-und-entwicklung-als-iterativer-prozess]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3643,10 +3643,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - Aufbau der Datarama-Erstpräsentation und Varianten der Navigation</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-aufbau-der-datarama-erstpraesentation-und-varianten-der-navigation/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-aufbau-der-datarama-erstpraesentation-und-varianten-der-navigation/</link>
 		<pubDate>Fri, 12 Jul 2019 17:39:49 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2083</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2083</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -3658,7 +3658,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-aufbau-der-datarama-erstpraesentation-und-varianten-der-navigation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3723,10 +3723,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - Datarama-Konzeption &amp; Entwicklung als iterativer Prozess</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-datarama-konzeption-entwicklung-als-iterativer-prozess/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-datarama-konzeption-entwicklung-als-iterativer-prozess/</link>
 		<pubDate>Fri, 12 Jul 2019 17:41:36 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2084</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2084</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -3736,7 +3736,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-datarama-konzeption-entwicklung-als-iterativer-prozess]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3800,10 +3800,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - Auswertung NutzerInnentests Bodentier-App</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-auswertung-nutzerinnentests-bodentier-app/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-auswertung-nutzerinnentests-bodentier-app/</link>
 		<pubDate>Fri, 12 Jul 2019 17:43:35 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2085</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2085</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -3815,7 +3815,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-auswertung-nutzerinnentests-bodentier-app]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3880,10 +3880,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - Best-Practice Guide für die Erstellung eines interaktiven Bestimmungsschlüssels für schwer zu bestimmende Taxongruppen</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-best-practice-guide-fuer-die-erstellung-eines-interaktiven-bestimmungsschluessels-fuer-schwer-zu-bestimmende-taxongruppen/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-best-practice-guide-fuer-die-erstellung-eines-interaktiven-bestimmungsschluessels-fuer-schwer-zu-bestimmende-taxongruppen/</link>
 		<pubDate>Fri, 12 Jul 2019 17:45:45 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2086</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2086</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -3893,7 +3893,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-best-practice-guide-fuer-die-erstellung-eines-interaktiven-bestimmungsschluessels-fuer-schwer-zu-bestimmende-taxongruppen]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -3957,10 +3957,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M5 - Konzeption und Umsetzung des Webportals Landschaftsfotos als Bürgerwissenschafts-Projekt</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-konzeption-und-umsetzung-des-webportals-landschaftsfotos-als-buergerwissenschafts-projekt/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-konzeption-und-umsetzung-des-webportals-landschaftsfotos-als-buergerwissenschafts-projekt/</link>
 		<pubDate>Fri, 12 Jul 2019 17:47:07 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2087</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2087</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Historische Landschaftsaufnahmen als wertvolle Quelle der  Biodiversitätsforschung: Private Fotobestände sind eine verborgene Quelle wertvoller Informationen, die insbesondere im Hinblick auf  historische Landschaftsaufnahmen bisher nur unzureichend erschlossen  ist. Neben dem eigentlichen Bildmaterial sind es vor allem die Angaben  zur geografischen und zeitlichen Einordnung der Landschaftsaufnahmen,  die nach und nach verloren gehen. Aus diesem Grund haben wir ein Konzept  entwickelt, um das private Bildmaterial als Datenquelle erhalten,  erschließen und nutzbar machen zu können. Es umfasst u. a. den  Digitalisierungsprozess des Bildmaterials, die strukturierte Erfassung  der bildbeschreibenden Daten, die Klärung rechtlicher Fragen und die  verantwortungsvolle Bereitstellung der Bilder und zugehörigen Metadaten  in einem benutzungsfreundlichen und validierten Webportal. Mit dem in  ihren Landschaftsfotografien dokumentierten Wandel der Lebensräume im  vergangenen Jahrhundert können BürgerwissenschaftlerInnen auf diese  Weise einen wichtigen Beitrag zur Biodiversitätsforschung leisten. </p>
@@ -3972,7 +3972,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-konzeption-und-umsetzung-des-webportals-landschaftsfotos-als-buergerwissenschafts-projekt]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4036,10 +4036,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M6 - kosmosdigital: Toolkit zur Herstellung von Videos zur multiperspektivischen Auseinandersetzung mit Sammlungen</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m6-kosmosdigital-toolkit-zur-herstellung-von-videos-zur-multiperspektivischen-auseinandersetzung-mit-sammlungen/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m6-kosmosdigital-toolkit-zur-herstellung-von-videos-zur-multiperspektivischen-auseinandersetzung-mit-sammlungen/</link>
 		<pubDate>Fri, 12 Jul 2019 17:50:17 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2088</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2088</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -4049,7 +4049,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m6-kosmosdigital-toolkit-zur-herstellung-von-videos-zur-multiperspektivischen-auseinandersetzung-mit-sammlungen]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4114,10 +4114,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M6 - Methodenreflexion multiperspektivisches Storytelling im Museum</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m5-methodenreflexion-multiperspektivisches-storytelling-im-museum/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m5-methodenreflexion-multiperspektivisches-storytelling-im-museum/</link>
 		<pubDate>Fri, 12 Jul 2019 17:52:56 +0000</pubDate>
 		<dc:creator><![CDATA[museum4punkt0]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2089</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2089</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -4127,7 +4127,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m5-methodenreflexion-multiperspektivisches-storytelling-im-museum]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4191,10 +4191,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M6 - Analyse von Museumsdatenbanken mit Fokus auf Nutzbarkeit für BesucherInnen</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m6-analyse-von-museumsdatenbanken-mit-fokus-auf-nutzbarkeit-fuer-besucherinnen/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m6-analyse-von-museumsdatenbanken-mit-fokus-auf-nutzbarkeit-fuer-besucherinnen/</link>
 		<pubDate>Fri, 12 Jul 2019 17:55:12 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2090</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2090</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.]]></excerpt:encoded>
@@ -4204,7 +4204,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m6-analyse-von-museumsdatenbanken-mit-fokus-auf-nutzbarkeit-fuer-besucherinnen]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4269,10 +4269,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M6 - Mein Objekt - Nutzerstudien</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m6-mein-objekt-nutzerstudien/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m6-mein-objekt-nutzerstudien/</link>
 		<pubDate>Fri, 12 Jul 2019 17:57:59 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2092</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2092</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -4284,7 +4284,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m6-mein-objekt-nutzerstudien]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4348,10 +4348,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>M6 - Mein Objekt - Erstellungsprozess</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m6-mein-objekt-erstellungsprozess/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m6-mein-objekt-erstellungsprozess/</link>
 		<pubDate>Fri, 12 Jul 2019 18:01:01 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2093</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2093</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -4363,7 +4363,7 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m6-mein-objekt-erstellungsprozess]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4427,10 +4427,10 @@ Nutzungsverhalten von MuseumsbesucherInnen]]></wp:meta_value>
 							</item>
 					<item>
 		<title>BODENTIER hoch 4: ERLEBEN - ERKENNEN - ERFASSEN - ERFORSCHEN</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/app-bodentier-hoch-4-erleben-erkennen-erfassen-erforschen/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/app-bodentier-hoch-4-erleben-erkennen-erfassen-erforschen/</link>
 		<pubDate>Fri, 12 Jul 2019 17:46:48 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2104</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2104</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p>Die mit Hilfe der App bestimmten Bodentiere können als Fund an eine 
@@ -4468,7 +4468,7 @@ sein.</p>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[app-bodentier-hoch-4-erleben-erkennen-erfassen-erforschen]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4545,10 +4545,10 @@ sein.</p>
 							</item>
 					<item>
 		<title>M1 - Digitales Leit- und Informationssystem</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-digitales-leit-und-informationssystem/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-digitales-leit-und-informationssystem/</link>
 		<pubDate>Tue, 23 Jul 2019 15:22:09 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2107</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2107</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4558,7 +4558,7 @@ sein.</p>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m1-digitales-leit-und-informationssystem]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>
@@ -4623,10 +4623,10 @@ sein.</p>
 							</item>
 					<item>
 		<title>M1 - AR-Anwendung Gemäldegalerie Tromp l&#039;oeil</title>
-		<link>https://www.m4p0.eatch.com/ergebnis/m1-ar-anwendung-gemaeldegalerie-tromp-loeil/</link>
+		<link>https://www.museum4punkt0.de/ergebnis/m1-ar-anwendung-gemaeldegalerie-tromp-loeil/</link>
 		<pubDate>Tue, 23 Jul 2019 15:24:02 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">https://www.m4p0.eatch.com/?post_type=result&#038;p=2108</guid>
+		<guid isPermaLink="false">https://www.museum4punkt0.de/?post_type=result&#038;p=2108</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -4636,7 +4636,7 @@ sein.</p>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[m1-ar-anwendung-gemaeldegalerie-tromp-loeil]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:status><![CDATA[private]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[ergebnis]]></wp:post_type>

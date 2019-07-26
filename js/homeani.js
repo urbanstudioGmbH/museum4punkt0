@@ -18,7 +18,7 @@
   var scenes = {};
   var trigger = {};
   var scrollFactor = 2;
-  var textScrollFactor = 1;
+  var textScrollFactor = 0;
 
   function onReady() {
 
@@ -39,10 +39,12 @@
       controller.scrollTo(function (newScrollPos) {
         $("html, body").animate({
           scrollTop: newScrollPos
-        });
+        },1500, 'easeOutExpo');
       });
       // Add one pixel to enter trigger zone, so 'enter' and 'leave' work as expected
-      controller.scrollTo(scenes.text1.scrollOffset() + 1);
+      var winHeight = $(window).height();
+      var scrollIntro = (winHeight/4) * 3;
+      controller.scrollTo(scenes.text1.scrollOffset() + scrollIntro); // original: + 1
 
       return false;
     });
@@ -166,8 +168,8 @@
         //toggleBackgroundActiveState(e.type === 'enter');
         var scrollDirection = e.target.controller().info("scrollDirection");
         if (e.type === 'enter') {
-          toggleBackgroundActiveState(true);
-          scrollDirection !== "REVERSE" && showAndScrambleText("h1.animated-heading, h2.animated-heading");
+          toggleBackgroundActiveState(false);
+          //scrollDirection !== "REVERSE" && showAndScrambleText("h1.animated-heading, h2.animated-heading");
           $('.skipIntro').addClass('skipIntro--hidden');
         } else if (scrollDirection !== "FORWARD") {
           toggleBackgroundActiveState(false);

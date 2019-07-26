@@ -14,7 +14,7 @@ class block_us_results{
             'description'		=> __('erzeugt einen Ergebnisse-Block', "uslang"),
             'render_callback'	=> array($this, 'block_us_results_render'),
             'category'		=> 'usblocks',
-            'icon'			=> '<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="copyright" class="svg-inline--fa fa-copyright fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm117.134 346.753c-1.592 1.867-39.776 45.731-109.851 45.731-84.692 0-144.484-63.26-144.484-145.567 0-81.303 62.004-143.401 143.762-143.401 66.957 0 101.965 37.315 103.422 38.904a12 12 0 0 1 1.238 14.623l-22.38 34.655c-4.049 6.267-12.774 7.351-18.234 2.295-.233-.214-26.529-23.88-61.88-23.88-46.116 0-73.916 33.575-73.916 76.082 0 39.602 25.514 79.692 74.277 79.692 38.697 0 65.28-28.338 65.544-28.625 5.132-5.565 14.059-5.033 18.508 1.053l24.547 33.572a12.001 12.001 0 0 1-.553 14.866z"></path></svg>',
+            'icon'			=> '<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sitemap" class="svg-inline--fa fa-sitemap fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M128 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32zm-24-80h192v48h48v-48h192v48h48v-57.59c0-21.17-17.23-38.41-38.41-38.41H344v-64h40c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H256c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h40v64H94.41C73.23 224 56 241.23 56 262.41V320h48v-48zm264 80h-96c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32zm240 0h-96c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32z"></path></svg>',
             'keywords'		=> array("article", "featured"),
             'enqueue_assets' => function(){
                 //wp_enqueue_style( 'block-us-faq', get_template_directory_uri()."/inc/blocks/faq/faq.css");
@@ -68,6 +68,8 @@ class block_us_results{
 
                     $args = array(
                         'post_type' => 'ergebnis',
+                        'numberposts' => -1,
+                        'post_status' => 'publish',
                         'meta_query'     => array(
                             array(
                                 'key'     => 'approach',
@@ -112,9 +114,9 @@ class block_us_results{
 
             
             if(\is_admin()){
-                $c .= '<div class="block_us_faq '.$alignclass.'" id="'.$blockid.'">';
-                    $c .= '<h3>Hinweis!</h3>';
-                    $c .= '<div class="usdc_text">Wechseln Sie in den Bearbeiten-Modus oder passe diesen Block in den Blockeinstellungen in der rechten Seitenleiste an.</div>';
+                $c .= '<div class="block_us_faq '.$alignclass.'" id="'.$blockid.'" style="border:2px solid black; padding:0 20px 20px 20px;">';
+                    $c .= '<h3>Umsetzungsansätze</h3>';
+                    $c .= '<div class="usdc_text">Wählen Sie die Umsetzungsansätze für dieses Teilprojekt bitte am Ende der Seite aus. Die Umsetzungsansätze und Ergebnisse werden dann automatisch an dieser Stelle ausgegeben.</div>';
                 $c .= '</div>';
                 echo $c;
             }

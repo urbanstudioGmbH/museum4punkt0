@@ -74,7 +74,9 @@ get_header();
 					query_posts('post_type='.$post_type.'&posts_per_page=-1');
 					while( have_posts() ) {
 						the_post();
+						if($post->post_status == "publish"):
 						echo '<li><a href="'.get_permalink().'">'.get_the_title().'</a></li>';
+						endif;
 					}
 
 					echo '</ul>';

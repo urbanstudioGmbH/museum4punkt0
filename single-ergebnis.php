@@ -10,6 +10,7 @@ $defaultresultterm = get_field("default_result_category","options");
 $project = get_field("project");
 $approachID = get_field("approach");
 $thisID = get_the_ID();
+$pagestatus = get_post_status( get_the_ID() );
 ?>	
 <main>
 	<div class="center">
@@ -22,7 +23,7 @@ $thisID = get_the_ID();
 								<?php 
 									echo wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name;
 								?>
-							</strong> <?php if(empty(wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name) && empty(wp_get_post_terms(get_the_ID(), 'technology')[0]->name)):?>&mdash;<?php endif; ?> 
+							</strong> <?php if(!empty(wp_get_post_terms(get_the_ID(), 'resulttype')[0]->name) && !empty(wp_get_post_terms(get_the_ID(), 'technology')[0]->name)):?>&mdash;<?php endif; ?> 
 							<strong class="technology" <?php if(empty(wp_get_post_terms(get_the_ID(), 'technology')[0]->name)):?>style="display:none"<?php endif; ?>>
 								<?php 
 									echo wp_get_post_terms(get_the_ID(), 'technology')[0]->name;
@@ -142,12 +143,18 @@ $thisID = get_the_ID();
 
 
 				<?php 
-				// var_dump($project);
+				$poststatus = array('publish','private');
+				if ($pagestatus == "publish"):
+					$poststatus = "publish";
+
+				endif;
+
 				$projectID = $project[0]->ID;
-				// echo "ID is " . $projectID;
+
 				$args = array(
 			        'post_type' => 'ergebnis',
 			        'numberposts' => -1,
+			        'post_status' => $poststatus,
 			        'meta_query'     => array(
 						array(
 							'key'     => 'project',

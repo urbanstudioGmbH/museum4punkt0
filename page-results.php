@@ -6,6 +6,7 @@
 get_header();
 global $defaultresultterm;
 $defaultresultterm = get_field("default_result_category","options");
+$pagestatus = get_post_status( get_the_ID() );
 ?>
 	<main>
 		<div class="center">
@@ -72,6 +73,8 @@ $defaultresultterm = get_field("default_result_category","options");
 							<nav>
 								<?php
 									$countTaxTerms = 1;
+
+									
 									foreach($taxonomies as $taxonomy) { 
 										
 									// create taxonomie terms navigation
@@ -81,6 +84,8 @@ $defaultresultterm = get_field("default_result_category","options");
 
 								<ul id="sortable-<?=$countTaxTerms; ?>">
 									<?php 
+
+
 										// show taxonomies terms that are not empty
 										$terms = get_terms( array(
 										    'taxonomy' => $taxonomy->name,
@@ -117,9 +122,14 @@ $defaultresultterm = get_field("default_result_category","options");
 				<a href="#sortable" id="scrolltop-results" style="display:none">Scroll to top</a>
 				<div id="sortable-content" class="items">
 					<?php 
+					$poststatus = array('publish','private');
+					if ($pagestatus == "publish"):
+						$poststatus = "publish";
 
+					endif;
 					$args = array(
 					    'post_type'=> 'ergebnis',
+					    'post_status' => $poststatus,
 					    'posts_per_page' => -1,
 					    'nopaging' => true,					    
 					    'order'    => 'ASC'
