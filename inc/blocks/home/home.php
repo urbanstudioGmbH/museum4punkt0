@@ -43,7 +43,7 @@ class block_us_home{
         if( have_rows('sections') ): 
            // loop through the rows of data
             while ( have_rows('sections') ) : the_row(); 
-                
+                $image = get_sub_field("image");
 
                ?>
               
@@ -51,7 +51,7 @@ class block_us_home{
                 <section class="grid">
                     <a href="<?php the_sub_field('link'); ?>">
                       <figure>
-                        <img src="<?php the_sub_field('image'); ?>">
+                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
                       </figure>
                       <div>
                         
@@ -185,7 +185,7 @@ class block_us_home{
                                     'class' => '',
                                     'id' => '',
                                 ),
-                                'return_format' => 'url',
+                                'return_format' => 'array',
                                 'preview_size' => 'thumbnail',
                                 'library' => 'all',
                                 'min_width' => '',
